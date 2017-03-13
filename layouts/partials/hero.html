@@ -1,0 +1,42 @@
+{{ $baseurl := .Site.BaseURL }}
+<h1 class="site-title">
+  <div class="hero-logo">
+    <img src="{{ $baseurl }}/img/hashfyre.svg" height="150" width="150">
+  </div>
+  <span class="base05">{</span>
+  <span class="base04">But,</span>
+  <span class="base09">It Works On My</span>
+  <span class="base04">System!</span>
+  <span class="base05">}</span>
+</h1>
+<!-- Font Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<div class="row" align="center">
+  <div class="col-xs-12 user-social text-center">
+    {{ with .Site.Params.TwitterID }}
+    <a href="https://twitter.com/{{.}}" title="Twitter"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.GoogleplusID }}
+    <a href="https://plus.google.com/{{.}}/about" title="Google+"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.FacebookID }}
+    <a href="https://facebook.com/{{.}}" title="Facebook"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.GithubID }}
+    <a href="https://github.com/{{.}}" title="GitHub"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.GitlabId }}
+    <a href="https://gitlab.com/{{.}}" title="GitLab"><i class="fa fa-gitlab fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.LinkedInID }}
+    <a href="http://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+    {{ with .Site.Params.Email }}
+    <a href="mailto:{{.}}" title="Email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+    {{ end }}
+  </div>
+</div>
+<div style="text-align: center;">
+  Dev/Ops and Container Shenanigans
+</div>

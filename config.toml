@@ -1,0 +1,14 @@
+languageCode = "en-us"
+title = "itworksonmysystem.com"
+baseURL = "https://itworksonmysystem.com"
+pygmentsuseclasses = true
+themesDir = "themes"
+theme = "base16"
+
+[params]
+  GithubID = "Hashfyre"
+  TwitterID = "hashfyre"
+  LinkedInID = "joybhattacherjee"
+  #GoogleplusID = "your_googleplus"
+  #FacebookID = "your_facebook"
+  Email = "joy.bhattacherjee@gmail.com"

@@ -33,8 +33,9 @@ cd ..
 
 ## Main site update
 # cleanup main-site
+EXCLUDE="CNAME LICENSE README.md"
 cd ../hashfyre.github.io/
-rm -rf ./*
+rm -rf `ls | grep -v "${EXCLUDE}"`
 
 # copy
 cp -R ../hashfyre-personal-hugo/public/* ./

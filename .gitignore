@@ -25,7 +25,4 @@ _testmain.go
 *.swp
 
 # Ignore template articles
-content/post/creating-a-new-theme.md
-content/post/goisforlovers.md
-content/post/hugoisforlovers.md
-content/post/migrate-from-jekyll.md
+content-template/*

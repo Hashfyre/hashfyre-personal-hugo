@@ -33,11 +33,11 @@ cd ..
 
 ## Main site update
 # cleanup main-site
-EXCLUDE="CNAME LICENSE README.md"
+EXCLUDE="CNAME|LICENSE|README.md"
 cd ../hashfyre.github.io/
-DEL_LIST=`ls | grep -v "${EXCLUDE}"`
+DEL_LIST=`ls | egrep -v "${EXCLUDE}"`
 echo "[INFO] Files to delete: ${DEL_LIST}"
-rm -rfv `"${DEL_LIST}"`
+rm -rfv "${DEL_LIST}"
 
 # copy
 cp -R ../hashfyre-personal-hugo/public/* ./

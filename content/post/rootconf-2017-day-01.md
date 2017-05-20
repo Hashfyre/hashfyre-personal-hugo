@@ -101,8 +101,7 @@ For interested people, some resources:
 
 
  - [k8s stuff at katacoda](https://www.katacoda.com/)
-
-   shoutout to [madhuakula](https://twitter.com/madhuakula) for sharing this link
+  - shoutout to [madhuakula](https://twitter.com/madhuakula) for sharing these tutes
 
 ### [D01T03: A little bot for a big cause](https://rootconf.talkfunnel.com/2017/7-a-little-bot-for-big-cause) by [@techgirlpooja](https://twitter.com/techgirlpooja)
 This. Was. A. Talk. About. Alice.
@@ -131,8 +130,7 @@ The only caveat was that, oscillator relied upon a lot of code-instrumentation t
  - The tests
  - The instrumentation
 
-I'm neither for or against this. I just don't see it practically plausible in smaller companies where a dev's time gives the company if he's working on delivering the new cool feature to get more customers, and not on instrumentation.
-The applicability of this sterategy is thus proportional to the scale of the company, if you have got a decent size backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.
+I'm neither for or against this. I just don't see it practically plausible in smaller companies, where a dev's time is better spent delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.
 
 ### D01 Lunch and Networking
 Lunch breaks are always about networking. For me this time it was about catching up with people I have virtually met through the [Devs and Hackers Slack Group](http://slack.devup.in/).

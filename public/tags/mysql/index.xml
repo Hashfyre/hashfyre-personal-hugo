@@ -53,7 +53,7 @@
 
 &lt;p&gt;The running gag was that my company &lt;a href=&#34;https://razorpay.com&#34;&gt;Razorpay&lt;/a&gt; was fielding a full-stack team for Rootconf. It did help we were also the Payment Partners.&lt;/p&gt;
 
-&lt;p&gt;After the usual meet and greet with hasgeek employees, volunteers (who were now friends) and the attendees I had met during last rootconf and other conferences, we were seated in the MLR COnvention Center Auditorium, primed for the first talk.&lt;/p&gt;
+&lt;p&gt;After the usual meet and greet with hasgeek employees, volunteers (who were now friends) and the attendees I had met during last rootconf and other conferences, we were seated in the MLR Convention Center Auditorium, primed for the first talk.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t01-state-of-the-open-source-monitoring-landscape-https-rootconf-talkfunnel-com-2017-63-state-of-the-open-source-monitoring-landscape-by-gethash-https-twitter-com-gethash&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/63-state-of-the-open-source-monitoring-landscape&#34;&gt;D01T01: State of the Open Source Monitoring Landscape&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/gethash&#34;&gt;@gethash&lt;/a&gt;&lt;/h3&gt;
 
@@ -190,7 +190,7 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 
 &lt;p&gt;We mostly do not do CI/CD this way anymore, so there&amp;rsquo;s that.&lt;/p&gt;
 
-&lt;h3 id=&#34;d01t06-what-should-be-pid-1-in-a-container-https-rootconf-talkfunnel-com-2017-51-what-should-be-pid-1-in-a-container&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/51-what-should-be-pid-1-in-a-container&#34;&gt;D01T06: What should be PID 1 in a container&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;d01t06-what-should-be-pid-1-in-a-container-https-rootconf-talkfunnel-com-2017-51-what-should-be-pid-1-in-a-container-by-r-rajaram&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/51-what-should-be-pid-1-in-a-container&#34;&gt;D01T06: What should be PID 1 in a container&lt;/a&gt; by R. Rajaram&lt;/h3&gt;
 
 &lt;p&gt;Wow! There was so much &lt;code&gt;#TIL&lt;/code&gt; in this talk. I was glad I decided to wake up and focus on the content.&lt;/p&gt;
 
@@ -203,7 +203,7 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 &lt;pre&gt;&lt;code&gt;CMD [&amp;quot;/bin/bash&amp;quot;, &amp;quot;-c&amp;quot;, &amp;quot;set -e &amp;amp;&amp;amp; /path-to-your-app&amp;quot;]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;as oppsed to directly running:&lt;/p&gt;
+&lt;p&gt;as opposed to directly running:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;CMD [&amp;quot;/path-to-your-app&amp;quot;]
 &lt;/code&gt;&lt;/pre&gt;
@@ -217,17 +217,16 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 
 &lt;p&gt;I just found a very nice blog-post on this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&#34;&gt;Docker and the PID 1 Zombie reaping problem&lt;/a&gt;
-This merits a fresh article, so I&amp;rsquo;m not going to talk about this more in this post.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&#34;&gt;Docker and the PID 1 Zombie reaping problem&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Using &lt;code&gt;dumb-init&lt;/code&gt; has a caveat that it&amp;rsquo;s non-trivial to build a layered docker image using &lt;code&gt;FROM&lt;/code&gt; directive on top of an image that uses it.
 I have faced this problem while dealing with the &lt;a href=&#34;https://hub.docker.com/_/vault/&#34;&gt;hashicorp vault docker image&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I loved this talk.&lt;/p&gt;
+&lt;p&gt;This merits a fresh article, so I&amp;rsquo;m not going to talk about this more in this post. I loved this talk.&lt;/p&gt;
 
 &lt;h2 id=&#34;end-of-day-01&#34;&gt;End of Day 01&lt;/h2&gt;
 
-&lt;p&gt;And, I spent some time with my friends &lt;a href=&#34;https://twitter.com/lochan&#34;&gt;@lochan&lt;/a&gt; and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented &lt;a href=&#34;https://blog.kilter.in/kilter-at-rootconf-f79893f96547&#34;&gt;Kilter Track&lt;/a&gt;. They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
+&lt;p&gt;I spent some time with my friends &lt;a href=&#34;https://twitter.com/lochan&#34;&gt;@lochan&lt;/a&gt; and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented &lt;a href=&#34;https://blog.kilter.in/kilter-at-rootconf-f79893f96547&#34;&gt;Kilter Track&lt;/a&gt;. They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren&amp;rsquo;t my things, I spent quiet some time singing Knocking on Heaven&amp;rsquo;s Door etc with Lochan on the guitar. His rendition of Parvaaz&amp;rsquo;s songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz&amp;rsquo;s music videos.
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -235,11 +234,11 @@ While slack-lining or hoola-hooping weren&amp;rsquo;t my things, I spent quiet s
  &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p&gt;The day ended with my team heading to the post-conf party organized by Gojek at Big Brewsky. Food and drinks were on them. Post intoxication, &lt;a href=&#34;https://twitter.com/_TheDarkRider&#34;&gt;@_TheDarkRider&lt;/a&gt; dropped by to say hi which resulted in:
+&lt;p&gt;The day ended with my team heading to the post-conf party organized by Gojek at Big Brewsky. Food and drinks were on them.&lt;/p&gt;
+
+&lt;p&gt;Post intoxication, &lt;a href=&#34;https://twitter.com/_TheDarkRider&#34;&gt;@_TheDarkRider&lt;/a&gt; dropped by to say hi which resulted in:
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;followed by &lt;a href=&#34;https://twitter.com/theeggfactory&#34;&gt;@theeggfactory&lt;/a&gt; dinner with &lt;a href=&#34;https://twitter.com/_TheDarkRider&#34;&gt;@_TheDarkRider&lt;/a&gt; &lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@_dforce&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashfyre&#34;&gt;@hashfyre&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hacktohell&#34;&gt;@hacktohell&lt;/a&gt; &lt;a href=&#34;https://twitter.com/data__wizard&#34;&gt;@data__wizard&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/mehulved&#34;&gt;@mehulved&lt;/a&gt;. Random &amp;amp; fun conversations&lt;/p&gt;&amp;mdash; Sathya (@SathyaBhat) &lt;a href=&#34;https://twitter.com/SathyaBhat/status/862715007972147200&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;p&gt;Thus ended day 01&lt;/p&gt;
 </description>
     </item>
     

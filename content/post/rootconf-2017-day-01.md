@@ -41,11 +41,12 @@ Read on...
 
 
 ## Rootconf 2017
-This time I was attending with three of my teammates:
+This time I was attending with four of my teammates:
 
-  [@rmenn](https://twitter.com/rmenn), my team-lead,
-  VV, our Technical Architect,
-  and [@dforce](https://twitter.com/_dforce) our backend bear.
+  - [@rmenn](https://twitter.com/rmenn), my team-lead,
+  - VV, our Technical Architect,
+  - [@sreeramb93](https://twitter.com/sreeramb93), resident monitoring nerd,
+  - and [@dforce](https://twitter.com/_dforce) our backend bear.
 
 Also,
 
@@ -61,7 +62,7 @@ Bernd is the co-fo of Icinga, that much [hyped and heated fork](https://news.yco
 I kind of reacted prematurely when I didn't see [Prometheus](https://prometheus.io/) in his list of monitoring tools. However that doubt was soon rested, and he did talk about it in the metrics section of talk.
   {{<tweet 862523143742570496>}}
 
- The talk offered a board coverage of:
+ The talk offered a broad coverage of:
 
   - Monitoring tools:
     - [Nagios](https://www.nagios.org/)

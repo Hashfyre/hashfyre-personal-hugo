@@ -166,7 +166,7 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 &lt;li&gt;The instrumentation&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see it practically plausible in smaller companies, where a dev&amp;rsquo;s time is better spent delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see it practically plausible in smaller companies, where a dev&amp;rsquo;s time is better spent on delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01-lunch-and-networking&#34;&gt;D01: Lunch and Networking&lt;/h3&gt;
 

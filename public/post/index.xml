@@ -27,9 +27,9 @@
 
 &lt;p&gt;The scene here at Bangalore was fancy, upbeat and teeming with geeks; which only added to my euphoria. Thankfully, that reddit guy turned out to be &lt;a href=&#34;https://captnemo.in/&#34;&gt;Captn3m0&lt;/a&gt; who was very much key&amp;rsquo;ed into almost all the nicer tech (and otherwise) communities in this city.&lt;/p&gt;
 
-&lt;p&gt;Soon, I was attending (Rootconf&amp;rsquo;16)[&lt;a href=&#34;https://rootconf.in/2016/&#34;&gt;https://rootconf.in/2016/&lt;/a&gt;] and getting to meet wonderful devs and infra-geeks from all over the world. My glass was half-empty and I had my tinted-spectacles on. Nothing could deter my enthusiasm.&lt;/p&gt;
+&lt;p&gt;Soon, I was attending &lt;a href=&#34;https://rootconf.in/2016/&#34;&gt;Rootconf&amp;rsquo;16&lt;/a&gt; and getting to meet wonderful devs and infra-geeks from all over the world. My glass was half-empty and I had my tinted-spectacles on. Nothing could deter my enthusiasm.&lt;/p&gt;
 
-&lt;p&gt;Then, a year goes by&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Then, a year went by&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;My glass is now three-quarters full, I&amp;rsquo;ve sobered up from the initial trippy-tour of the scene and more importantly, the community has absorbed me. Now, I&amp;rsquo;m somewhat key&amp;rsquo;ed in.&lt;/p&gt;
 
@@ -39,13 +39,18 @@
 
 &lt;h2 id=&#34;rootconf-2017&#34;&gt;Rootconf 2017&lt;/h2&gt;
 
-&lt;p&gt;This time I was attending with three of my teammates:
-  &lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt;, my team-lead
-  VV, our Technical Architect, and
-  &lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@dforce&lt;/a&gt;
-Also,
-  &lt;a href=&#34;https://twitter.com/akshay_bhalotia&#34;&gt;@akshay_bhalotia&lt;/a&gt;, our iOS dev
-was volunteering in the conference.&lt;/p&gt;
+&lt;p&gt;This time I was attending with three of my teammates:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt;, my team-lead&lt;/p&gt;
+
+&lt;p&gt;VV, our Technical Architect, and&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@dforce&lt;/a&gt;
+Also,&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/akshay_bhalotia&#34;&gt;@akshay_bhalotia&lt;/a&gt;, our iOS dev&lt;/p&gt;
+
+&lt;p&gt;was volunteering in the conference.&lt;/p&gt;
 
 &lt;p&gt;The running gag was that my company &lt;a href=&#34;https://razorpay.com&#34;&gt;Razorpay&lt;/a&gt; was fielding a full-stack team for Rootconf. It did help we were also the Payment Partners.&lt;/p&gt;
 
@@ -59,26 +64,41 @@ was volunteering in the conference.&lt;/p&gt;
   &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/gethash&#34;&gt;@gethash&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; Why no Prometheus on the Monitoring landscape! 🤔 &lt;a href=&#34;https://twitter.com/hashtag/Rootconf?src=hash&#34;&gt;#Rootconf&lt;/a&gt; &lt;a href=&#34;https://t.co/xcM7JzMse6&#34;&gt;pic.twitter.com/xcM7JzMse6&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862523143742570496&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;The talk offered a board coverage of:
-  - Monitoring tools:
-    - &lt;a href=&#34;https://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt;
-    - &lt;a href=&#34;https://www.icinga.com/&#34;&gt;Icinga 2&lt;/a&gt;
-    - &lt;a href=&#34;https://sensuapp.org/&#34;&gt;Sensu&lt;/a&gt;
-    - &lt;a href=&#34;http://www.zabbix.com/&#34;&gt;Zabbix&lt;/a&gt;
-  - Metric Gathering tools:
-    - &lt;a href=&#34;http://riemann.io/&#34;&gt;Riemann&lt;/a&gt;
-    - &lt;a href=&#34;https://www.opennms.org/en&#34;&gt;OpenNMS&lt;/a&gt;
-    - &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;
-    - &lt;a href=&#34;https://www.influxdata.com/products/open-source/&#34;&gt;TICK Stack&lt;/a&gt;
-    - &lt;a href=&#34;http://graphiteapp.org/&#34;&gt;Graphite&lt;/a&gt;
-  - Logging tools:
-    - &lt;a href=&#34;https://www.elastic.co/products&#34;&gt;ELK/Elastic Stack&lt;/a&gt;
-    - &lt;a href=&#34;http://www.fluentd.org/&#34;&gt;Fluentd&lt;/a&gt;
-  - Dashboard:
-    - &lt;a href=&#34;https://grafana.com/&#34;&gt;Graphana&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The talk offered a board coverage of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monitoring tools:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nagios.org/&#34;&gt;Nagios&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.icinga.com/&#34;&gt;Icinga 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sensuapp.org/&#34;&gt;Sensu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.zabbix.com/&#34;&gt;Zabbix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Metric Gathering tools:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://riemann.io/&#34;&gt;Riemann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.opennms.org/en&#34;&gt;OpenNMS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.influxdata.com/products/open-source/&#34;&gt;TICK Stack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://graphiteapp.org/&#34;&gt;Graphite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Logging tools:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/products&#34;&gt;ELK/Elastic Stack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.fluentd.org/&#34;&gt;Fluentd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Dashboard:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://grafana.com/&#34;&gt;Graphana&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The one thing I found missing from the list was &lt;a href=&#34;https://sentry.io/welcome/&#34;&gt;sentry&lt;/a&gt;
-Also, mark my words, fluentdis the log forwarder fo the near-future. Do EFK, not ELK.&lt;/p&gt;
+Also, mark my words, fluentd is the log forwarder fo the near-future. Do EFK, not ELK.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t02-deployment-strategies-with-kubernetes-https-rootconf-talkfunnel-com-2017-17-deployment-strategies-with-kubernetes-by-adityapatwari-https-twitter-com-adityapatwari&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/17-deployment-strategies-with-kubernetes&#34;&gt;D01T02: Deployment Strategies with Kubernetes&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/adityapatwari&#34;&gt;@adityapatwari&lt;/a&gt;&lt;/h3&gt;
 
@@ -88,15 +108,15 @@ Also, mark my words, fluentdis the log forwarder fo the near-future. Do EFK, not
 
 &lt;p&gt;The thing with k8s is, if you know the basic jargon, you feel like you want to consume better material. But, if you are just starting out, the jargon itself is daunting enough to warrant multiple 101 sessions.&lt;/p&gt;
 
-&lt;p&gt;For interested people, some resources:
- - Jankiram MSV&amp;rsquo;s k8s webinar series
-   
+&lt;p&gt;For interested people, some resources:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jankiram MSV&amp;rsquo;s k8s webinar series
+
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/_vHTaIJm9uY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
-&lt;/p&gt;
-
-&lt;ul&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.katacoda.com/&#34;&gt;k8s stuff at katacoda&lt;/a&gt;
 shoutout to &lt;a href=&#34;https://twitter.com/madhuakula&#34;&gt;madhuakula&lt;/a&gt; for linking this to me&lt;/li&gt;
 &lt;/ul&gt;
@@ -118,16 +138,25 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/mananbharara&#34;&gt;@mananbharara&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; This is the most artful, precise and expertly delivered presentation I&amp;#39;ve seen in a long time. Bloody brilliant.&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862564182851371008&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;The content though was very specific to monitoring as applied to the contexts of:
- - OTTO, the EU e-commerce giant
- - Clojure, the language
-   - &lt;a href=&#34;http://metrics-clojure.readthedocs.io/en/latest/&#34;&gt;metrics&lt;/a&gt;, a clojure library&lt;/p&gt;
+&lt;p&gt;The content though was very specific to monitoring as applied to the contexts of:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OTTO, the EU e-commerce giant&lt;/li&gt;
+&lt;li&gt;Clojure, the language
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://metrics-clojure.readthedocs.io/en/latest/&#34;&gt;metrics&lt;/a&gt;, a clojure library&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;That said, the product, &lt;a href=&#34;https://github.com/otto-de/oscillator&#34;&gt;oscilliator&lt;/a&gt; was a dream to watch. If you&amp;rsquo;re using clojure, try this. It&amp;rsquo;s built on d3js
-The only caveat was this relied on a lot of code instrumentation to provide metrics. So, you&amp;rsquo;ll end up needing another tool to measure instrumentation coverage for your codebase, just like you measure test coverage. For any module a dev writes, he&amp;rsquo;ll have to write:
- - The code
- - The tests
- - The instrumentation&lt;/p&gt;
+The only caveat was this relied on a lot of code instrumentation to provide metrics. So, you&amp;rsquo;ll end up needing another tool to measure instrumentation coverage for your codebase, just like you measure test coverage. For any module a dev writes, he&amp;rsquo;ll have to write:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The code&lt;/li&gt;
+&lt;li&gt;The tests&lt;/li&gt;
+&lt;li&gt;The instrumentation&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see practically plausible in smaller companies where a dev&amp;rsquo;s time gives the company if he&amp;rsquo;s working on delivering the new cool feature to get more customers, and not on instrumentation.
 The applicability of this sterategy is thus proportional to the scale of the company, if you have got a decent size backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.&lt;/p&gt;
@@ -141,10 +170,13 @@ While there have been numerous meetups within Bangalore, where I have had the pr
 
 &lt;h3 id=&#34;d01t05-autonomous-application-delivery-https-rootconf-talkfunnel-com-2017-37-autonomous-application-delivery-faster-more-reliab-by-thegdot-https-twitter-com-thegdot&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/37-autonomous-application-delivery-faster-more-reliab&#34;&gt;D01T05: Autonomous Application Delivery&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/thegdot&#34;&gt;@thegdot&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;This talked veeered away from the cloud centric talks we are used to and packaging tools, such as:
- - pkgsrc
- - nix
- - OpenPkg&lt;/p&gt;
+&lt;p&gt;This talked veeered away from the cloud centric talks we are used to and packaging tools, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;pkgsrc&lt;/li&gt;
+&lt;li&gt;nix&lt;/li&gt;
+&lt;li&gt;OpenPkg&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Since this talk was more targeted to the non-cloud ecosystem and for people using FreeBSD, Solaris etc. I kind of drifted away after a initial attentive phase. The lunch helped
 We mostly do not do CI/CD this way anymore, so there&amp;rsquo;s that.&lt;/p&gt;
@@ -165,11 +197,16 @@ One workaround was to set the entrypoint to a &lt;code&gt;bash&lt;/code&gt; scri
 &lt;pre&gt;&lt;code&gt;CMD [&amp;quot;/path-to-your-app&amp;quot;]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;But this was only the tip of the ice-berg. Alternatives were:
- - &lt;a href=&#34;https://github.com/Yelp/dumb-init&#34;&gt;dumb-init&lt;/a&gt;
- - Docker-1.13, has introduced the flag, &lt;a href=&#34;https://docs.docker.com/engine/reference/run/#specify-an-init-process&#34;&gt;&amp;ndash;init&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;But this was only the tip of the ice-berg. Alternatives were:&lt;/p&gt;
 
-&lt;p&gt;I just found a very nice blog-post on this: &lt;a href=&#34;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&#34;&gt;Docker and the PID 1 Zombie reaping problem&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Yelp/dumb-init&#34;&gt;dumb-init&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker-1.13, has introduced the flag, &lt;a href=&#34;https://docs.docker.com/engine/reference/run/#specify-an-init-process&#34;&gt;&amp;ndash;init&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I just found a very nice blog-post on this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&#34;&gt;Docker and the PID 1 Zombie reaping problem&lt;/a&gt;
 This merits a fresh article, so I&amp;rsquo;m not going to talk about this more in this post.&lt;/p&gt;
 
 &lt;p&gt;Using &lt;code&gt;dumb-init&lt;/code&gt; has a caveat that it&amp;rsquo;s non-trivial to build a layered docker image using &lt;code&gt;FROM&lt;/code&gt; directive on top of an image that uses it.
@@ -179,7 +216,7 @@ I have faced this problem while dealing with the &lt;a href=&#34;https://hub.doc
 
 &lt;h2 id=&#34;end-of-day-01&#34;&gt;End of Day 01&lt;/h2&gt;
 
-&lt;p&gt;And, I spent some time with my friends &lt;a href=&#34;https://twitter.com/lochan&#34;&gt;@lochan&lt;/a&gt; and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-singing duo. They were conducting the fitness oriented &lt;a href=&#34;https://blog.kilter.in/kilter-at-rootconf-f79893f96547&#34;&gt;Kilter Track&lt;/a&gt;. They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
+&lt;p&gt;And, I spent some time with my friends &lt;a href=&#34;https://twitter.com/lochan&#34;&gt;@lochan&lt;/a&gt; and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented &lt;a href=&#34;https://blog.kilter.in/kilter-at-rootconf-f79893f96547&#34;&gt;Kilter Track&lt;/a&gt;. They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren&amp;rsquo;t my things, I spent quiet some time singing Knocking on Heaven&amp;rsquo;s Door etc with Lochan on the guitar. His rendition of Parvaaz&amp;rsquo;s songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz&amp;rsquo;s music videos.
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;

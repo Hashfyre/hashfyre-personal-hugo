@@ -121,10 +121,12 @@
 
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.katacoda.com/&#34;&gt;k8s stuff at katacoda&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.katacoda.com/&#34;&gt;k8s stuff at katacoda&lt;/a&gt;
 
-&lt;p&gt;shoutout to &lt;a href=&#34;https://twitter.com/madhuakula&#34;&gt;madhuakula&lt;/a&gt; for sharing this link&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shoutout to &lt;a href=&#34;https://twitter.com/madhuakula&#34;&gt;madhuakula&lt;/a&gt; for sharing these tutes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;d01t03-a-little-bot-for-a-big-cause-https-rootconf-talkfunnel-com-2017-7-a-little-bot-for-big-cause-by-techgirlpooja-https-twitter-com-techgirlpooja&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/7-a-little-bot-for-big-cause&#34;&gt;D01T03: A little bot for a big cause&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/techgirlpooja&#34;&gt;@techgirlpooja&lt;/a&gt;&lt;/h3&gt;
 
@@ -164,8 +166,7 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 &lt;li&gt;The instrumentation&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see it practically plausible in smaller companies where a dev&amp;rsquo;s time gives the company if he&amp;rsquo;s working on delivering the new cool feature to get more customers, and not on instrumentation.
-The applicability of this sterategy is thus proportional to the scale of the company, if you have got a decent size backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see it practically plausible in smaller companies, where a dev&amp;rsquo;s time is better spent delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01-lunch-and-networking&#34;&gt;D01 Lunch and Networking&lt;/h3&gt;
 

@@ -190,9 +190,11 @@ The applicability of this sterategy is thus proportional to the scale of the com
 
 &lt;p&gt;Wow! There was so much &lt;code&gt;#TIL&lt;/code&gt; in this talk. I was glad I decided to wake up and focus on the content.&lt;/p&gt;
 
-&lt;p&gt;Turns out that in older versions of Docker, it didn&amp;rsquo;t reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.
-Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.
-One workaround was to set the entrypoint to a &lt;code&gt;bash&lt;/code&gt; script that in turn runs your server:&lt;/p&gt;
+&lt;p&gt;Turns out that in older versions of Docker, it didn&amp;rsquo;t reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.&lt;/p&gt;
+
+&lt;p&gt;Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.&lt;/p&gt;
+
+&lt;p&gt;One workaround was to set the entrypoint to a &lt;code&gt;bash&lt;/code&gt; script that in turn runs your server:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;CMD [&amp;quot;/bin/bash&amp;quot;, &amp;quot;-c&amp;quot;, &amp;quot;set -e &amp;amp;&amp;amp; /path-to-your-app&amp;quot;]
 &lt;/code&gt;&lt;/pre&gt;

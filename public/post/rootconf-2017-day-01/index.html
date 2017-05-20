@@ -241,9 +241,11 @@ The applicability of this sterategy is thus proportional to the scale of the com
 
 <p>Wow! There was so much <code>#TIL</code> in this talk. I was glad I decided to wake up and focus on the content.</p>
 
-<p>Turns out that in older versions of Docker, it didn&rsquo;t reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.
-Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.
-One workaround was to set the entrypoint to a <code>bash</code> script that in turn runs your server:</p>
+<p>Turns out that in older versions of Docker, it didn&rsquo;t reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.</p>
+
+<p>Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.</p>
+
+<p>One workaround was to set the entrypoint to a <code>bash</code> script that in turn runs your server:</p>
 
 <pre><code>CMD [&quot;/bin/bash&quot;, &quot;-c&quot;, &quot;set -e &amp;&amp; /path-to-your-app&quot;]
 </code></pre>

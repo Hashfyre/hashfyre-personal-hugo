@@ -1,6 +1,6 @@
 ---
 author: "hashfyre"
-date: 2016-05-20
+date: 2017-05-20
 linktitle: Rootconf 2017 Retrospective - Day 01
 menu:
   main:
@@ -102,7 +102,7 @@ For interested people, some resources:
 
  - [k8s stuff at katacoda](https://www.katacoda.com/)
 
-   shoutout to [madhuakula](https://twitter.com/madhuakula) for linking this to me
+   shoutout to [madhuakula](https://twitter.com/madhuakula) for sharing this link
 
 ### [D01T03: A little bot for a big cause](https://rootconf.talkfunnel.com/2017/7-a-little-bot-for-big-cause) by [@techgirlpooja](https://twitter.com/techgirlpooja)
 This. Was. A. Talk. About. Alice.
@@ -123,9 +123,9 @@ The content though was very specific to monitoring as applied to the contexts of
  - Clojure, the language
    - [metrics](http://metrics-clojure.readthedocs.io/en/latest/), a clojure library
 
-That said, the product, [oscilliator](https://github.com/otto-de/oscillator) was a dream to watch. If you're using clojure, try this. It's built on d3js.
+That said, the product, [oscillator](https://github.com/otto-de/oscillator) was a dream to watch. If you're using clojure, try this. It's built on d3js.
 
-The only caveat was that, oscilliator relied upon a lot of code-instrumentation to provide metrics. So, you'll end up needing another tool to measure instrumentation-coverage for your codebase, just like you measure test-coverage. For any module a dev writes, he'll have to write:
+The only caveat was that, oscillator relied upon a lot of code-instrumentation to provide metrics. So, you'll end up needing another tool to measure instrumentation-coverage for your codebase, just like you measure test-coverage. For any module a dev writes, he'll have to write:
 
  - The code
  - The tests

@@ -132,7 +132,7 @@ The only caveat was that, oscillator relied upon a lot of code-instrumentation t
 
 I'm neither for or against this. I just don't see it practically plausible in smaller companies, where a dev's time is better spent delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.
 
-### D01 Lunch and Networking
+### D01: Lunch and Networking
 Lunch breaks are always about networking. For me this time it was about catching up with people I have virtually met through the [Devs and Hackers Slack Group](http://slack.devup.in/).
 
 While there have been numerous meetups within Bangalore, where I have had the privilege to meet and befreind [@SathyaBhat](https://twitter.com/SathyaBhat), this time [@hacktohell](https://twitter.com/hacktohell) and [@data__wizard](https://twitter.com/data__wizard) had come down from Mumbai to rootconf. And, I spent most time hanging with them.
@@ -181,7 +181,7 @@ I have faced this problem while dealing with the [hashicorp vault docker image](
 
 This merits a fresh article, so I'm not going to talk about this more in this post. I loved this talk.
 
-## End of Day 01
+## D01: End
 
 I spent some time with my friends [@lochan](https://twitter.com/lochan) and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented [Kilter Track](https://blog.kilter.in/kilter-at-rootconf-f79893f96547). They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren't my things, I spent quiet some time singing Knocking on Heaven's Door etc with Lochan on the guitar. His rendition of Parvaaz's songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz's music videos.

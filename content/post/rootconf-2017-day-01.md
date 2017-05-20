@@ -155,7 +155,9 @@ We mostly do not do CI/CD this way anymore, so there's that.
 Wow! There was so much `#TIL` in this talk. I was glad I decided to wake up and focus on the content.
 
 Turns out that in older versions of Docker, it didn't reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.
+
 Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.
+
 One workaround was to set the entrypoint to a `bash` script that in turn runs your server:
 
 ```

@@ -38,11 +38,14 @@
 
 &lt;h2 id=&#34;rootconf-2017&#34;&gt;Rootconf 2017&lt;/h2&gt;
 
-&lt;p&gt;This time I was attending with three of my teammates:&lt;/p&gt;
+&lt;p&gt;This time I was attending with four of my teammates:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt;, my team-lead,
-  VV, our Technical Architect,
-  and &lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@dforce&lt;/a&gt; our backend bear.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt;, my team-lead,&lt;/li&gt;
+&lt;li&gt;VV, our Technical Architect,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/sreeramb93&#34;&gt;@sreeramb93&lt;/a&gt;, resident monitoring nerd,&lt;/li&gt;
+&lt;li&gt;and &lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@dforce&lt;/a&gt; our backend bear.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Also,&lt;/p&gt;
 
@@ -60,7 +63,7 @@
   &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/gethash&#34;&gt;@gethash&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; Why no Prometheus on the Monitoring landscape! 🤔 &lt;a href=&#34;https://twitter.com/hashtag/Rootconf?src=hash&#34;&gt;#Rootconf&lt;/a&gt; &lt;a href=&#34;https://t.co/xcM7JzMse6&#34;&gt;pic.twitter.com/xcM7JzMse6&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862523143742570496&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;The talk offered a board coverage of:&lt;/p&gt;
+&lt;p&gt;The talk offered a broad coverage of:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Monitoring tools:

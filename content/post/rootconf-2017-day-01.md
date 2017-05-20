@@ -23,9 +23,9 @@ weight: 10
 This blog and the post is either a year or a week too late, depending on how you're looking at it. I was supposed to boot this up last Rootconf, when it was still 2016 and celebs were dying left, right and center. Only it's 2017 now, another Rootconf is already past us and democracy is dying.
 
 
-But where are my manners, let me introduce you to [Rootconf](https://rootconf.in/2017/) the annual Devops and Cloud Infrastructure conference organized by them geeks at [Hasgeek](https://hasgeek.com).
+But where are my manners, let me introduce you to [Rootconf](https://rootconf.in/2017/), the annual Devops and Cloud Infrastructure conference organized by them geeks at [Hasgeek](https://hasgeek.com).
 
-Last year, I was a freshly minted techie who had uprooted himself from Pune to the Bangalore tech-scene by virtue of a job he got himself over a reddit thread (yes, you read that right).
+Last year, I was a freshly minted techie and a migrant to the Bangalore tech-scene. I had got myself the gig over a reddit thread (yes, you read that right).
 
 The scene here at Bangalore was fancy, upbeat and teeming with geeks; which only added to my euphoria. Thankfully, that reddit guy turned out to be [Captn3m0](https://captnemo.in/) who was very much key'ed into almost all the nicer tech (and otherwise) communities in this city.
 

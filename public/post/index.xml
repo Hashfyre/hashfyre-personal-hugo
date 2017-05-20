@@ -220,7 +220,7 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 
 &lt;p&gt;&lt;a href=&#34;https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/&#34;&gt;Docker and the PID 1 Zombie reaping problem&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Using &lt;code&gt;dumb-init&lt;/code&gt; has a caveat that it&amp;rsquo;s non-trivial to build a layered docker image using &lt;code&gt;FROM&lt;/code&gt; directive on top of an image that uses it.
+&lt;p&gt;Using &lt;code&gt;dumb-init&lt;/code&gt; has a caveat in that, it becomes non-trivial to build a layered docker image using &lt;code&gt;FROM&lt;/code&gt; directive on top of an image that uses &lt;code&gt;dumb-init&lt;/code&gt;.
 I have faced this problem while dealing with the &lt;a href=&#34;https://hub.docker.com/_/vault/&#34;&gt;hashicorp vault docker image&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This merits a fresh article, so I&amp;rsquo;m not going to talk about this more in this post. I loved this talk.&lt;/p&gt;

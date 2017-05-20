@@ -2,7 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://itworksonmysystem.com/post/rootconf-2017-day-01/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/aws/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/conference/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/categories/conference/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/devops/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/mariadb/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/mysql/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/post/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/rootconf/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://itworksonmysystem.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://itworksonmysystem.com/</loc>
+    <lastmod>2016-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

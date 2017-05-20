@@ -26,3 +26,6 @@ _testmain.go
 
 # Ignore template articles
 content-template/*
+
+# MacOS
+.DS_Store

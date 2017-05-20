@@ -176,7 +176,7 @@ I just found a very nice blog-post on this:
 
 [Docker and the PID 1 Zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
 
-Using `dumb-init` has a caveat that it's non-trivial to build a layered docker image using `FROM` directive on top of an image that uses it.
+Using `dumb-init` has a caveat in that, it becomes non-trivial to build a layered docker image using `FROM` directive on top of an image that uses `dumb-init`.
 I have faced this problem while dealing with the [hashicorp vault docker image](https://hub.docker.com/_/vault/)
 
 This merits a fresh article, so I'm not going to talk about this more in this post. I loved this talk.

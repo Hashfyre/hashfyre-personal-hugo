@@ -130,7 +130,7 @@ The only caveat was that, oscillator relied upon a lot of code-instrumentation t
  - The tests
  - The instrumentation
 
-I'm neither for or against this. I just don't see it practically plausible in smaller companies, where a dev's time is better spent delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.
+I'm neither for or against this. I just don't see it practically plausible in smaller companies, where a dev's time is better spent on delivering features to get more customers, and not on instrumentation. The applicability of this sterategy is thus proportional to the scale of the company. If you have got a decently sized backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.
 
 ### D01: Lunch and Networking
 Lunch breaks are always about networking. For me this time it was about catching up with people I have virtually met through the [Devs and Hackers Slack Group](http://slack.devup.in/).

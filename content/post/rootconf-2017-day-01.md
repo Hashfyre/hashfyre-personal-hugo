@@ -54,7 +54,7 @@ Also,
 
 The running gag was that my company [Razorpay](https://razorpay.com) was fielding a full-stack team for Rootconf. It did help we were also the Payment Partners.
 
-After the usual meet and greet with hasgeek employees, volunteers (who were now friends) and the attendees I had met during last rootconf and other conferences, we were seated in the MLR COnvention Center Auditorium, primed for the first talk.
+After the usual meet and greet with hasgeek employees, volunteers (who were now friends) and the attendees I had met during last rootconf and other conferences, we were seated in the MLR Convention Center Auditorium, primed for the first talk.
 
 ### [D01T01: State of the Open Source Monitoring Landscape](https://rootconf.talkfunnel.com/2017/63-state-of-the-open-source-monitoring-landscape) by [@gethash](https://twitter.com/gethash)
 Bernd is the co-fo of Icinga, that much [hyped and heated fork](https://news.ycombinator.com/item?id=9452013) of Nagios. So if he's talking about monitoring, you're supposed to listen.
@@ -150,7 +150,7 @@ Since this talk was more targeted to the non-cloud ecosystem and for people usin
 
 We mostly do not do CI/CD this way anymore, so there's that.
 
-### [D01T06: What should be PID 1 in a container](https://rootconf.talkfunnel.com/2017/51-what-should-be-pid-1-in-a-container)
+### [D01T06: What should be PID 1 in a container](https://rootconf.talkfunnel.com/2017/51-what-should-be-pid-1-in-a-container) by R. Rajaram
 Wow! There was so much `#TIL` in this talk. I was glad I decided to wake up and focus on the content.
 
 Turns out that in older versions of Docker, it didn't reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.

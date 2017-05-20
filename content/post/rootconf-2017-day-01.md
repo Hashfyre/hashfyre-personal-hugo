@@ -29,9 +29,9 @@ Last year, I was a freshly minted techie who had uprooted himself from Pune to t
 
 The scene here at Bangalore was fancy, upbeat and teeming with geeks; which only added to my euphoria. Thankfully, that reddit guy turned out to be [Captn3m0](https://captnemo.in/) who was very much key'ed into almost all the nicer tech (and otherwise) communities in this city.
 
-Soon, I was attending (Rootconf'16)[https://rootconf.in/2016/] and getting to meet wonderful devs and infra-geeks from all over the world. My glass was half-empty and I had my tinted-spectacles on. Nothing could deter my enthusiasm.
+Soon, I was attending [Rootconf'16](https://rootconf.in/2016/) and getting to meet wonderful devs and infra-geeks from all over the world. My glass was half-empty and I had my tinted-spectacles on. Nothing could deter my enthusiasm.
 
-Then, a year goes by...
+Then, a year went by...
 
 My glass is now three-quarters full, I've sobered up from the initial trippy-tour of the scene and more importantly, the community has absorbed me. Now, I'm somewhat key'ed in.
 
@@ -42,11 +42,16 @@ Read on...
 
 ## Rootconf 2017
 This time I was attending with three of my teammates:
+
   [@rmenn](https://twitter.com/rmenn), my team-lead
+
   VV, our Technical Architect, and
+
   [@dforce](https://twitter.com/_dforce)
 Also,
+
   [@akshay_bhalotia](https://twitter.com/akshay_bhalotia), our iOS dev
+
 was volunteering in the conference.
 
 The running gag was that my company [Razorpay](https://razorpay.com) was fielding a full-stack team for Rootconf. It did help we were also the Payment Partners.
@@ -60,6 +65,7 @@ I kind of reacted prematurely when I didn't see [Prometheus](https://prometheus.
   {{<tweet 862523143742570496>}}
 
  The talk offered a board coverage of:
+
   - Monitoring tools:
     - [Nagios](https://www.nagios.org/)
     - [Icinga 2](https://www.icinga.com/)
@@ -78,7 +84,7 @@ I kind of reacted prematurely when I didn't see [Prometheus](https://prometheus.
     - [Graphana](https://grafana.com/)
 
 The one thing I found missing from the list was [sentry](https://sentry.io/welcome/)
-Also, mark my words, fluentdis the log forwarder fo the near-future. Do EFK, not ELK.
+Also, mark my words, fluentd is the log forwarder fo the near-future. Do EFK, not ELK.
 
 ### [D01T02: Deployment Strategies with Kubernetes](https://rootconf.talkfunnel.com/2017/17-deployment-strategies-with-kubernetes) by [@adityapatwari](https://twitter.com/adityapatwari)
 
@@ -89,9 +95,9 @@ Well, I did feel a bit let down when it turned out to be a basic 101 session of 
 The thing with k8s is, if you know the basic jargon, you feel like you want to consume better material. But, if you are just starting out, the jargon itself is daunting enough to warrant multiple 101 sessions.
 
 For interested people, some resources:
+
  - Jankiram MSV's k8s webinar series
    {{<youtube _vHTaIJm9uY>}}
-
  - [k8s stuff at katacoda](https://www.katacoda.com/)
    shoutout to [madhuakula](https://twitter.com/madhuakula) for linking this to me
 
@@ -109,12 +115,14 @@ Before I say anything about the content, this was the best delivery of the day. 
 {{<tweet 862564182851371008>}}
 
 The content though was very specific to monitoring as applied to the contexts of:
+
  - OTTO, the EU e-commerce giant
  - Clojure, the language
    - [metrics](http://metrics-clojure.readthedocs.io/en/latest/), a clojure library
 
 That said, the product, [oscilliator](https://github.com/otto-de/oscillator) was a dream to watch. If you're using clojure, try this. It's built on d3js
 The only caveat was this relied on a lot of code instrumentation to provide metrics. So, you'll end up needing another tool to measure instrumentation coverage for your codebase, just like you measure test coverage. For any module a dev writes, he'll have to write:
+
  - The code
  - The tests
  - The instrumentation
@@ -130,6 +138,7 @@ This was also the customary swag collection time, you know what you need to do w
 
 ### [D01T05: Autonomous Application Delivery](https://rootconf.talkfunnel.com/2017/37-autonomous-application-delivery-faster-more-reliab) by [@thegdot](https://twitter.com/thegdot)
 This talked veeered away from the cloud centric talks we are used to and packaging tools, such as:
+
  - pkgsrc
  - nix
  - OpenPkg
@@ -143,6 +152,7 @@ Wow, there was so much `#TIL` in this talk. I was glad I decided to wake up and 
 Turns out that in older versions of Docker, it didn't reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.
 Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.
 One workaround was to set the entrypoint to a `bash` script that in turn runs your server:
+
 ```
 CMD ["/bin/bash", "-c", "set -e && /path-to-your-app"]
 ```
@@ -152,10 +162,13 @@ CMD ["/path-to-your-app"]
 ```
 
 But this was only the tip of the ice-berg. Alternatives were:
+
  - [dumb-init](https://github.com/Yelp/dumb-init)
  - Docker-1.13, has introduced the flag, [--init](https://docs.docker.com/engine/reference/run/#specify-an-init-process).
 
-I just found a very nice blog-post on this: [Docker and the PID 1 Zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
+I just found a very nice blog-post on this:
+
+[Docker and the PID 1 Zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
 This merits a fresh article, so I'm not going to talk about this more in this post.
 
 Using `dumb-init` has a caveat that it's non-trivial to build a layered docker image using `FROM` directive on top of an image that uses it.
@@ -165,7 +178,7 @@ I loved this talk.
 
 ## End of Day 01
 
-And, I spent some time with my friends [@lochan](https://twitter.com/lochan) and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-singing duo. They were conducting the fitness oriented [Kilter Track](https://blog.kilter.in/kilter-at-rootconf-f79893f96547). They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
+And, I spent some time with my friends [@lochan](https://twitter.com/lochan) and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented [Kilter Track](https://blog.kilter.in/kilter-at-rootconf-f79893f96547). They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren't my things, I spent quiet some time singing Knocking on Heaven's Door etc with Lochan on the guitar. His rendition of Parvaaz's songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz's music videos.
 {{<youtube auZ3HeKB0-o>}}
 

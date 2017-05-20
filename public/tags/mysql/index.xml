@@ -20,7 +20,7 @@
 
 &lt;p&gt;This blog and the post is either a year or a week too late, depending on how you&amp;rsquo;re looking at it. I was supposed to boot this up last Rootconf, when it was still 2016 and celebs were dying left, right and center. Only it&amp;rsquo;s 2017 now, another Rootconf is already past us and democracy is dying.&lt;/p&gt;
 
-&lt;p&gt;But where are my manners, let me introduce you to &lt;a href=&#34;https://rootconf.in/2017/&#34;&gt;Rootconf&lt;/a&gt; the annual Devops and Cloud Infrastructure conference organized by them geeks at &lt;a href=&#34;https://hasgeek.com&#34;&gt;Hasgeek&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But where are my manners, let me introduce you to &lt;a href=&#34;https://rootconf.in/2017/&#34;&gt;Rootconf&lt;/a&gt; the annual Devops and Cloud Infrastructure conference organized by them geeks at &lt;a href=&#34;https://hasgeek.com&#34;&gt;Hasgeek&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Last year, I was a freshly minted techie who had uprooted himself from Pune to the Bangalore tech-scene by virtue of a job he got himself over a reddit thread (yes, you read that right).&lt;/p&gt;
 
@@ -40,16 +40,13 @@
 
 &lt;p&gt;This time I was attending with three of my teammates:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt;, my team-lead&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt;, my team-lead,
+  VV, our Technical Architect,
+  and &lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@dforce&lt;/a&gt; our backend bear.&lt;/p&gt;
 
-&lt;p&gt;VV, our Technical Architect, and&lt;/p&gt;
+&lt;p&gt;Also,&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@dforce&lt;/a&gt;
-Also,&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/akshay_bhalotia&#34;&gt;@akshay_bhalotia&lt;/a&gt;, our iOS dev&lt;/p&gt;
-
-&lt;p&gt;was volunteering in the conference.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/akshay_bhalotia&#34;&gt;@akshay_bhalotia&lt;/a&gt;, our iOS dev was volunteering for the conference.&lt;/p&gt;
 
 &lt;p&gt;The running gag was that my company &lt;a href=&#34;https://razorpay.com&#34;&gt;Razorpay&lt;/a&gt; was fielding a full-stack team for Rootconf. It did help we were also the Payment Partners.&lt;/p&gt;
 
@@ -96,29 +93,35 @@ Also,&lt;/p&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The one thing I found missing from the list was &lt;a href=&#34;https://sentry.io/welcome/&#34;&gt;sentry&lt;/a&gt;
-Also, mark my words, fluentd is the log forwarder fo the near-future. Do EFK, not ELK.&lt;/p&gt;
+&lt;p&gt;The one thing I found missing from the list was &lt;a href=&#34;https://sentry.io/welcome/&#34;&gt;sentry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;P.S. mark my words, fluentd is the log forwarder of the near-future. Do EFK, not ELK.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t02-deployment-strategies-with-kubernetes-https-rootconf-talkfunnel-com-2017-17-deployment-strategies-with-kubernetes-by-adityapatwari-https-twitter-com-adityapatwari&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/17-deployment-strategies-with-kubernetes&#34;&gt;D01T02: Deployment Strategies with Kubernetes&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/adityapatwari&#34;&gt;@adityapatwari&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Given that I have been fiddling with Kubernetes, Kompose as part of my current workload and working with &lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt; who is a big-time k8s-nerd, I was very hyped for this talk.&lt;/p&gt;
+&lt;p&gt;Given that I have been fiddling with Kubernetes, Kompose etc. as part of my current workload and working with &lt;a href=&#34;https://twitter.com/rmenn&#34;&gt;@rmenn&lt;/a&gt; who is a big-time k8s-nerd, I was very hyped for this talk.&lt;/p&gt;
 
-&lt;p&gt;Well, I did feel a bit let down when it turned out to be a basic 101 session of k8s, blue-greening and canary using labels and selectors. My opinionated verdict was, there was enough material in the talk for a short webinar, but not a full conference talk.&lt;/p&gt;
+&lt;p&gt;Well, I did feel a bit let down when it turned out to be a basic 101 session of k8s. Blue-greening and canary using labels and selectors. My opinionated verdict was, there was enough material in the talk for a short webinar, but not a full conference talk.&lt;/p&gt;
 
 &lt;p&gt;The thing with k8s is, if you know the basic jargon, you feel like you want to consume better material. But, if you are just starting out, the jargon itself is daunting enough to warrant multiple 101 sessions.&lt;/p&gt;
 
 &lt;p&gt;For interested people, some resources:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Jankiram MSV&amp;rsquo;s k8s webinar series
+&lt;li&gt;Jankiram MSV&amp;rsquo;s k8s webinar series&lt;/li&gt;
+&lt;/ul&gt;
+
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/_vHTaIJm9uY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.katacoda.com/&#34;&gt;k8s stuff at katacoda&lt;/a&gt;
-shoutout to &lt;a href=&#34;https://twitter.com/madhuakula&#34;&gt;madhuakula&lt;/a&gt; for linking this to me&lt;/li&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.katacoda.com/&#34;&gt;k8s stuff at katacoda&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;shoutout to &lt;a href=&#34;https://twitter.com/madhuakula&#34;&gt;madhuakula&lt;/a&gt; for linking this to me&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t03-a-little-bot-for-a-big-cause-https-rootconf-talkfunnel-com-2017-7-a-little-bot-for-big-cause-by-techgirlpooja-https-twitter-com-techgirlpooja&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/7-a-little-bot-for-big-cause&#34;&gt;D01T03: A little bot for a big cause&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/techgirlpooja&#34;&gt;@techgirlpooja&lt;/a&gt;&lt;/h3&gt;
 
@@ -127,13 +130,13 @@ shoutout to &lt;a href=&#34;https://twitter.com/madhuakula&#34;&gt;madhuakula&lt
 &lt;p&gt;I think I should stop here before I launch into a rant about why managing git branches, commits and PRs with a bot is a terrible idea.
   &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Post tea talk by &lt;a href=&#34;https://twitter.com/TechGirlPooja&#34;&gt;@TechGirlPooja&lt;/a&gt;  on branch, PR management through slackbot Alice. Don&amp;#39;t agree on the auto closing and autorevert. &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; &lt;a href=&#34;https://t.co/XQKWj0Dg04&#34;&gt;pic.twitter.com/XQKWj0Dg04&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862554376103120897&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.com/&#34;&gt;Hubot&lt;/a&gt; the messiah of ChatOps that does github PR management for you based on a configurable rule-set. Only, if you ever want to manage a repo you don&amp;rsquo;t want a bot auto-reverting your merge that you need to revert again.&lt;/p&gt;
+Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.com/&#34;&gt;Hubot&lt;/a&gt;, the messiah of ChatOps that does github PR management for you based on a configurable rule-set. Only, if you ever want to manage a repo you don&amp;rsquo;t want a bot auto-reverting your merge that you need to revert again.&lt;/p&gt;
 
 &lt;p&gt;Additionally, the brand of humor in this talk did not agree with me. I shall stop now.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t04-the-otto-monitoring-talk-https-rootconf-talkfunnel-com-2017-18-necessary-tooling-and-monitoring-for-performance-c-by-mananbharara-https-twitter-com-mananbharara&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/18-necessary-tooling-and-monitoring-for-performance-c&#34;&gt;D01T04: The OTTO Monitoring talk&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mananbharara&#34;&gt;@mananbharara&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Before I say anything about the content, this was the best delivery of the day. Manan&amp;rsquo;s preciseness in every point he talked about was beyond a practiced excellence. This was a zero fluff talk you&amp;rsquo;d get lacthed on easily.
+&lt;p&gt;Before I say anything about the content, this was the best delivery of the day. Manan&amp;rsquo;s precision in every point he made was beyond a practiced excellence. This was a zero fluff talk you&amp;rsquo;d get latched onto easily.
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/mananbharara&#34;&gt;@mananbharara&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; This is the most artful, precise and expertly delivered presentation I&amp;#39;ve seen in a long time. Bloody brilliant.&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862564182851371008&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -148,8 +151,9 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;That said, the product, &lt;a href=&#34;https://github.com/otto-de/oscillator&#34;&gt;oscilliator&lt;/a&gt; was a dream to watch. If you&amp;rsquo;re using clojure, try this. It&amp;rsquo;s built on d3js
-The only caveat was this relied on a lot of code instrumentation to provide metrics. So, you&amp;rsquo;ll end up needing another tool to measure instrumentation coverage for your codebase, just like you measure test coverage. For any module a dev writes, he&amp;rsquo;ll have to write:&lt;/p&gt;
+&lt;p&gt;That said, the product, &lt;a href=&#34;https://github.com/otto-de/oscillator&#34;&gt;oscilliator&lt;/a&gt; was a dream to watch. If you&amp;rsquo;re using clojure, try this. It&amp;rsquo;s built on d3js.&lt;/p&gt;
+
+&lt;p&gt;The only caveat was that, oscilliator relied upon a lot of code-instrumentation to provide metrics. So, you&amp;rsquo;ll end up needing another tool to measure instrumentation-coverage for your codebase, just like you measure test-coverage. For any module a dev writes, he&amp;rsquo;ll have to write:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The code&lt;/li&gt;
@@ -157,19 +161,20 @@ The only caveat was this relied on a lot of code instrumentation to provide metr
 &lt;li&gt;The instrumentation&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see practically plausible in smaller companies where a dev&amp;rsquo;s time gives the company if he&amp;rsquo;s working on delivering the new cool feature to get more customers, and not on instrumentation.
+&lt;p&gt;I&amp;rsquo;m neither for or against this. I just don&amp;rsquo;t see it practically plausible in smaller companies where a dev&amp;rsquo;s time gives the company if he&amp;rsquo;s working on delivering the new cool feature to get more customers, and not on instrumentation.
 The applicability of this sterategy is thus proportional to the scale of the company, if you have got a decent size backend army that can now focus on reliability more than feature-creep, go ahead and ask them to write instrumentation.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01-lunch-and-networking&#34;&gt;D01 Lunch and Networking&lt;/h3&gt;
 
-&lt;p&gt;Lunch breaks are always about networking and for me this time was catching up with people I have virtually met through the &lt;a href=&#34;http://slack.devup.in/&#34;&gt;Devs and Hackers Slack Group&lt;/a&gt;
-While there have been numerous meetups within Bangalore, where I have had the privilege to meet and befreind &lt;a href=&#34;https://twitter.com/SathyaBhat&#34;&gt;@SathyaBhat&lt;/a&gt;, this time &lt;a href=&#34;https://twitter.com/hacktohell&#34;&gt;@hacktohell&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/data__wizard&#34;&gt;@data__wizard&lt;/a&gt; had come down from Mumbai to rootconf. And, I spent most time hanging with them.&lt;/p&gt;
+&lt;p&gt;Lunch breaks are always about networking. For me this time it was about catching up with people I have virtually met through the &lt;a href=&#34;http://slack.devup.in/&#34;&gt;Devs and Hackers Slack Group&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While there have been numerous meetups within Bangalore, where I have had the privilege to meet and befreind &lt;a href=&#34;https://twitter.com/SathyaBhat&#34;&gt;@SathyaBhat&lt;/a&gt;, this time &lt;a href=&#34;https://twitter.com/hacktohell&#34;&gt;@hacktohell&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/data__wizard&#34;&gt;@data__wizard&lt;/a&gt; had come down from Mumbai to rootconf. And, I spent most time hanging with them.&lt;/p&gt;
 
 &lt;p&gt;This was also the customary swag collection time, you know what you need to do when you&amp;rsquo;re doing this.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t05-autonomous-application-delivery-https-rootconf-talkfunnel-com-2017-37-autonomous-application-delivery-faster-more-reliab-by-thegdot-https-twitter-com-thegdot&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/37-autonomous-application-delivery-faster-more-reliab&#34;&gt;D01T05: Autonomous Application Delivery&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/thegdot&#34;&gt;@thegdot&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;This talked veeered away from the cloud centric talks we are used to and packaging tools, such as:&lt;/p&gt;
+&lt;p&gt;This talk veeered away from the cloud centricism we are so used to and focussed on old-school packaging tools, such as:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;pkgsrc&lt;/li&gt;
@@ -177,12 +182,13 @@ While there have been numerous meetups within Bangalore, where I have had the pr
 &lt;li&gt;OpenPkg&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Since this talk was more targeted to the non-cloud ecosystem and for people using FreeBSD, Solaris etc. I kind of drifted away after a initial attentive phase. The lunch helped
-We mostly do not do CI/CD this way anymore, so there&amp;rsquo;s that.&lt;/p&gt;
+&lt;p&gt;Since this talk was more targeted to the non-cloud ecosystem and for people using FreeBSD, Solaris etc. I kind of drifted away after a initial attentive phase. The lunch helped.&lt;/p&gt;
+
+&lt;p&gt;We mostly do not do CI/CD this way anymore, so there&amp;rsquo;s that.&lt;/p&gt;
 
 &lt;h3 id=&#34;d01t06-what-should-be-pid-1-in-a-container-https-rootconf-talkfunnel-com-2017-51-what-should-be-pid-1-in-a-container&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/51-what-should-be-pid-1-in-a-container&#34;&gt;D01T06: What should be PID 1 in a container&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Wow, there was so much &lt;code&gt;#TIL&lt;/code&gt; in this talk. I was glad I decided to wake up and focus on the content of this talk.&lt;/p&gt;
+&lt;p&gt;Wow! There was so much &lt;code&gt;#TIL&lt;/code&gt; in this talk. I was glad I decided to wake up and focus on the content.&lt;/p&gt;
 
 &lt;p&gt;Turns out that in older versions of Docker, it didn&amp;rsquo;t reparent child processes to the PID 1 correctly, resulting in a bunch of zombies in your system, eating up memory.
 Every time a request is made to the app hosted by the container, it fork()s a new child() and after cleanup this hangs around without getting attached to the top level process and thus never gets reaped.

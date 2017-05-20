@@ -162,7 +162,7 @@ One workaround was to set the entrypoint to a `bash` script that in turn runs yo
 ```
 CMD ["/bin/bash", "-c", "set -e && /path-to-your-app"]
 ```
-as oppsed to directly running:
+as opposed to directly running:
 ```
 CMD ["/path-to-your-app"]
 ```
@@ -175,20 +175,19 @@ But this was only the tip of the ice-berg. Alternatives were:
 I just found a very nice blog-post on this:
 
 [Docker and the PID 1 Zombie reaping problem](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/)
-This merits a fresh article, so I'm not going to talk about this more in this post.
 
 Using `dumb-init` has a caveat that it's non-trivial to build a layered docker image using `FROM` directive on top of an image that uses it.
 I have faced this problem while dealing with the [hashicorp vault docker image](https://hub.docker.com/_/vault/)
 
-I loved this talk.
+This merits a fresh article, so I'm not going to talk about this more in this post. I loved this talk.
 
 ## End of Day 01
 
-And, I spent some time with my friends [@lochan](https://twitter.com/lochan) and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented [Kilter Track](https://blog.kilter.in/kilter-at-rootconf-f79893f96547). They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
+I spent some time with my friends [@lochan](https://twitter.com/lochan) and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented [Kilter Track](https://blog.kilter.in/kilter-at-rootconf-f79893f96547). They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren't my things, I spent quiet some time singing Knocking on Heaven's Door etc with Lochan on the guitar. His rendition of Parvaaz's songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz's music videos.
 {{<youtube auZ3HeKB0-o>}}
 
-The day ended with my team heading to the post-conf party organized by Gojek at Big Brewsky. Food and drinks were on them. Post intoxication, [@_TheDarkRider](https://twitter.com/_TheDarkRider) dropped by to say hi which resulted in:
-{{<tweet 862715007972147200>}}
+The day ended with my team heading to the post-conf party organized by Gojek at Big Brewsky. Food and drinks were on them.
 
-Thus ended day 01
+Post intoxication, [@_TheDarkRider](https://twitter.com/_TheDarkRider) dropped by to say hi which resulted in:
+{{<tweet 862715007972147200>}}

@@ -225,7 +225,7 @@ I have faced this problem while dealing with the &lt;a href=&#34;https://hub.doc
 
 &lt;p&gt;This merits a fresh article, so I&amp;rsquo;m not going to talk about this more in this post. I loved this talk.&lt;/p&gt;
 
-&lt;h2 id=&#34;d01-end&#34;&gt;D01: End&lt;/h2&gt;
+&lt;h2 id=&#34;d01-reprise&#34;&gt;D01: Reprise&lt;/h2&gt;
 
 &lt;p&gt;I spent some time with my friends &lt;a href=&#34;https://twitter.com/lochan&#34;&gt;@lochan&lt;/a&gt; and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented &lt;a href=&#34;https://blog.kilter.in/kilter-at-rootconf-f79893f96547&#34;&gt;Kilter Track&lt;/a&gt;. They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren&amp;rsquo;t my things, I spent quiet some time singing Knocking on Heaven&amp;rsquo;s Door etc with Lochan on the guitar. His rendition of Parvaaz&amp;rsquo;s songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz&amp;rsquo;s music videos.
@@ -234,6 +234,36 @@ While slack-lining or hoola-hooping weren&amp;rsquo;t my things, I spent quiet s
   &lt;iframe src=&#34;//www.youtube.com/embed/auZ3HeKB0-o&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 &lt;/p&gt;
+
+&lt;h2 id=&#34;d01-off-the-record-session-aws-cost-optimization&#34;&gt;D01: Off The Record Session - AWS Cost Optimization&lt;/h2&gt;
+
+&lt;p&gt;The session was being conducted by the admins of AWS Meetup Group, Bangalore. Of whom, I knew &lt;a href=&#34;https://twitter.com/habi_pk&#34;&gt;@habi_pk / Habeeb&lt;/a&gt; through previous meetups.&lt;/p&gt;
+
+&lt;p&gt;I had Decided to join in on the OTR session from a more listener point of view, however soon the debate was too heated to not participate. We talked broadly about:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spot Instances&lt;/li&gt;
+&lt;li&gt;Reserved Instances&lt;/li&gt;
+&lt;li&gt;AutoScaling&lt;/li&gt;
+&lt;li&gt;Cloud Architecture as Code
+
+&lt;ul&gt;
+&lt;li&gt;CloudFormation&lt;/li&gt;
+&lt;li&gt;Terraform&lt;/li&gt;
+&lt;li&gt;CloudFormation vs Terraform (json vs hcl)&lt;/li&gt;
+&lt;li&gt;You can understand that this had flame-war potential&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Optimization of instance size based on workload
+
+&lt;ul&gt;
+&lt;li&gt;Incited a riot (almost) when I proclaimed support for t2 machines to be able to do your job&lt;/li&gt;
+&lt;li&gt;Thankfully &lt;a href=&#34;https://twitter.com/SathyaBhat&#34;&gt;@SathyaBhat&lt;/a&gt; jumped in to save my soul and vouched for t2s&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Less we talk about opinions, the better. Including mine, since I consider myself a n00b when it comes to cost-optimizations.&lt;/p&gt;
+
+&lt;h2 id=&#34;d01-end&#34;&gt;D01: End&lt;/h2&gt;
 
 &lt;p&gt;The day ended with my team heading to the post-conf party organized by Gojek at Big Brewsky. Food and drinks were on them.&lt;/p&gt;
 

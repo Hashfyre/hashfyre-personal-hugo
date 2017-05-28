@@ -181,12 +181,32 @@ I have faced this problem while dealing with the [hashicorp vault docker image](
 
 This merits a fresh article, so I'm not going to talk about this more in this post. I loved this talk.
 
-## D01: End
+## D01: Reprise
 
 I spent some time with my friends [@lochan](https://twitter.com/lochan) and Sapna, the amazing travelling-india-on-bicycles-while-hoola-hooping-and-singing duo. They were conducting the fitness oriented [Kilter Track](https://blog.kilter.in/kilter-at-rootconf-f79893f96547). They had setup Slack lines, hoola hoops on the venue for the fitness inclined.
 While slack-lining or hoola-hooping weren't my things, I spent quiet some time singing Knocking on Heaven's Door etc with Lochan on the guitar. His rendition of Parvaaz's songs are always amazing. Oh! Did I forget to tell you that he had recently acted in one of Parvaaz's music videos.
 {{<youtube auZ3HeKB0-o>}}
 
+## D01: Off The Record Session - AWS Cost Optimization
+The session was being conducted by the admins of AWS Meetup Group, Bangalore. Of whom, I knew [@habi_pk / Habeeb](https://twitter.com/habi_pk) through previous meetups.
+
+I had Decided to join in on the OTR session from a more listener point of view, however soon the debate was too heated to not participate. We talked broadly about:
+
+- Spot Instances
+- Reserved Instances
+- AutoScaling
+- Cloud Architecture as Code
+  - CloudFormation
+  - Terraform
+  - CloudFormation vs Terraform (json vs hcl)
+    - You can understand that this had flame-war potential
+- Optimization of instance size based on workload
+  - Incited a riot (almost) when I proclaimed support for t2 machines to be able to do your job
+  - Thankfully [@SathyaBhat](https://twitter.com/SathyaBhat) jumped in to save my soul and vouched for t2s
+
+The Less we talk about opinions, the better. Including mine, since I consider myself a n00b when it comes to cost-optimizations.
+
+## D01: End
 The day ended with my team heading to the post-conf party organized by Gojek at Big Brewsky. Food and drinks were on them.
 
 Post intoxication, [@_TheDarkRider](https://twitter.com/_TheDarkRider) dropped by to say hi which resulted in:

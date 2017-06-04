@@ -5,7 +5,7 @@ linktitle: Rootconf 2017 Retrospective - Day 01
 menu:
   main:
     parent: conferences
-title: Rootconf 2017 Retrospective
+title: Rootconf 2017 Retrospective - Day 01
 categories:
   - conference
 tags:

@@ -1,6 +1,6 @@
 ---
 author: "hashfyre"
-date: 2017-05-20
+date: 2017-06-04
 linktitle: Rootconf 2017 Retrospective - Day 02
 menu:
   main:

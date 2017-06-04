@@ -69,14 +69,18 @@
 
 &lt;h3 id=&#34;d02t03-devconf-track-build-test-deliver-latest-and-safest-container-images-effortlessly-https-rootconf-talkfunnel-com-devconf-2017-86-build-test-deliver-latest-and-safest-container-ima-by-rtnpro-https-twitter-com-rtnpro&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/devconf-2017/86-build-test-deliver-latest-and-safest-container-ima&#34;&gt;D02T03: DevConf Track: Build, test, deliver latest and safest container images effortlessly&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/rtnpro&#34;&gt;@rtnpro&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;I joined in pretty late on this talk, the only info I could garner was that CentOS has built a &lt;a href=&#34;https://github.com/CentOS/container-pipeline-service&#34;&gt;Container Delivery Pipeline&lt;/a&gt; with built-in security checks and open-sourced it. At my work, we already have something similar with wercker as the CI pipeline and Dockerhub as both registry and vulnerability assessment.&lt;/p&gt;
+&lt;p&gt;I joined in pretty late on this talk, the only info I could garner was that CentOS has built a &lt;a href=&#34;https://github.com/CentOS/container-pipeline-service&#34;&gt;Container Delivery Pipeline&lt;/a&gt; with built-in security checks and open-sourced it.&lt;/p&gt;
+
+&lt;p&gt;At my work, we already have something similar with wercker as the CI pipeline and Dockerhub as both the registry and vulnerability assessor.&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;DevConf track &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; on &lt;a href=&#34;https://t.co/OWOr9ZlHGl&#34;&gt;https://t.co/OWOr9ZlHGl&lt;/a&gt;&lt;br&gt;I guess I need to add a package update checker for my werker publish pipeline. &lt;a href=&#34;https://t.co/Pv5LGa5z7q&#34;&gt;pic.twitter.com/Pv5LGa5z7q&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862901857894649857&#34;&gt;May 12, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 &lt;h3 id=&#34;d02t04-capacity-planning-for-your-data-stores-https-rootconf-talkfunnel-com-2017-65-capacity-planning-for-your-data-stores-by-bytebot-https-twitter-com-bytebot&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/65-capacity-planning-for-your-data-stores&#34;&gt;D02T04: Capacity planning for your data stores&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/bytebot&#34;&gt;@bytebot&lt;/a&gt;&lt;/h3&gt;
 
-&lt;p&gt;Colin&amp;rsquo;s talks were almost always of the more informative ones by any measure. This one did not disappoint too. He talked at length about MySQL Percona clusters and the &lt;a href=&#34;https://pmmdemo.percona.com/&#34;&gt;new monitoring tool&lt;/a&gt; they had come up with.&lt;/p&gt;
+&lt;p&gt;Colin&amp;rsquo;s talks were almost always of the more informative ones by any measure. This one did not disappoint too.&lt;/p&gt;
+
+&lt;p&gt;He talked at length about MySQL Percona clusters and the &lt;a href=&#34;https://pmmdemo.percona.com/&#34;&gt;new monitoring tool&lt;/a&gt; they had come up with.&lt;/p&gt;
 
 &lt;p&gt;It dealt in depth about MySQL/MariaDB shard management, and dabbled in how &lt;a href=&#34;http://www.proxysql.com/blog/releasing-proxysql-140&#34;&gt;ProxySQL&lt;/a&gt; can help one in boosting MySQL performance for orgs.&lt;/p&gt;
 
@@ -117,9 +121,9 @@
 &lt;li&gt;Debugging running processes with &lt;code&gt;show processlist&lt;/code&gt; and the likes.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Having run a &lt;code&gt;MariaDB + Galera&lt;/code&gt; master-master clsuter for a year and a half, most of these essential lessons were now burnt into my skin.&lt;/p&gt;
+&lt;p&gt;Having run a &lt;code&gt;MariaDB + Galera&lt;/code&gt; master-master cluster for a year and a half, most of these essential lessons were now burnt onto my skin.&lt;/p&gt;
 
-&lt;p&gt;You only know enough DBA if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.&lt;/p&gt;
+&lt;p&gt;You only know enough DBA, if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -182,7 +186,7 @@
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;MongoDB might be web scale, but bookmyshow is Bahubali scale.&amp;quot;&lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; conversation with a friend from BMS. 😂 &lt;a href=&#34;https://t.co/qVBJ0S2WNQ&#34;&gt;pic.twitter.com/qVBJ0S2WNQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/865072127094816769&#34;&gt;May 18, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Thus, the second (for me) Rootconf ended. I don&amp;rsquo;t know if I was any wiser for it, but as always I met new people from the DevOps circles around India and had a lot of interesting discussions. I&amp;rsquo;ll probably start a workshop at my workplace for Kubernets and hashicorp tools, since I was now pretty comfortable with them, and may be that&amp;rsquo;d be my way to give back to the community that had assimilated me.&lt;/p&gt;
+&lt;p&gt;Thus, the second (for me) Rootconf ended. I don&amp;rsquo;t know if I am any wiser for it, but as always I met new people from the DevOps circles around India and had a lot of interesting discussions. I&amp;rsquo;ll probably start a workshop at my workplace for Kubernets and hashicorp tools, since I was now pretty comfortable with them, and may be that&amp;rsquo;d be my way to give back to the community that has assimilated me.&lt;/p&gt;
 </description>
     </item>
     

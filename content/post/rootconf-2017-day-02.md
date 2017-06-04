@@ -61,13 +61,17 @@ The talked about tool here was, of course Pact. Pact defines the CDC cotract usi
 
 
 ### [D02T03: DevConf Track: Build, test, deliver latest and safest container images effortlessly](https://rootconf.talkfunnel.com/devconf-2017/86-build-test-deliver-latest-and-safest-container-ima) by [@rtnpro](https://twitter.com/rtnpro)
-I joined in pretty late on this talk, the only info I could garner was that CentOS has built a [Container Delivery Pipeline](https://github.com/CentOS/container-pipeline-service) with built-in security checks and open-sourced it. At my work, we already have something similar with wercker as the CI pipeline and Dockerhub as both registry and vulnerability assessment.
+I joined in pretty late on this talk, the only info I could garner was that CentOS has built a [Container Delivery Pipeline](https://github.com/CentOS/container-pipeline-service) with built-in security checks and open-sourced it.
+
+At my work, we already have something similar with wercker as the CI pipeline and Dockerhub as both the registry and vulnerability assessor.
 
 {{<tweet 862901857894649857>}}
 
 
 ### [D02T04: Capacity planning for your data stores](https://rootconf.talkfunnel.com/2017/65-capacity-planning-for-your-data-stores) by [@bytebot](https://twitter.com/bytebot)
-Colin's talks were almost always of the more informative ones by any measure. This one did not disappoint too. He talked at length about MySQL Percona clusters and the [new monitoring tool](https://pmmdemo.percona.com/) they had come up with.
+Colin's talks were almost always of the more informative ones by any measure. This one did not disappoint too.
+
+He talked at length about MySQL Percona clusters and the [new monitoring tool](https://pmmdemo.percona.com/) they had come up with.
 
 It dealt in depth about MySQL/MariaDB shard management, and dabbled in how [ProxySQL](http://www.proxysql.com/blog/releasing-proxysql-140) can help one in boosting MySQL performance for orgs.
 
@@ -98,9 +102,9 @@ This was a fairly 101 Level talk about:
 - Innodb metadata
 - Debugging running processes with `show processlist` and the likes.
 
-Having run a `MariaDB + Galera` master-master clsuter for a year and a half, most of these essential lessons were now burnt into my skin.
+Having run a `MariaDB + Galera` master-master cluster for a year and a half, most of these essential lessons were now burnt onto my skin.
 
-You only know enough DBA if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.
+You only know enough DBA, if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.
 
 {{<youtube tOSnLqcZ_Po>}}
 
@@ -143,4 +147,4 @@ To this Radhe reacted with considerable distress, saying, "We were all-hands dur
 
 {{<tweet 865072127094816769>}}
 
-Thus, the second (for me) Rootconf ended. I don't know if I was any wiser for it, but as always I met new people from the DevOps circles around India and had a lot of interesting discussions. I'll probably start a workshop at my workplace for Kubernets and hashicorp tools, since I was now pretty comfortable with them, and may be that'd be my way to give back to the community that had assimilated me.
+Thus, the second (for me) Rootconf ended. I don't know if I am any wiser for it, but as always I met new people from the DevOps circles around India and had a lot of interesting discussions. I'll probably start a workshop at my workplace for Kubernets and hashicorp tools, since I was now pretty comfortable with them, and may be that'd be my way to give back to the community that has assimilated me.

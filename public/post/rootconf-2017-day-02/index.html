@@ -79,7 +79,7 @@
 
 <p>This talk focussed on implementing circuit-breakers for Amazon&rsquo;s microservices clusters. The idea is if one of your microservice fails the entire overarching service shouldn&rsquo;t fail, only degrade by a fraction. It&rsquo;s also important that every dependant service would have circuit breakers with sane defaults take over in case of a failure of upstream service.</p>
 
-<p>An example circuit-breaker using <code>iptables</code> was shown, along side discussions of monitoring and tracing to deptect faiures.</p>
+<p>An example circuit-breaker using <code>iptables</code> was shown, along side discussions of monitoring and tracing to detect failures.</p>
 
 <p>The video of the talk is up now on Hasgeek&rsquo;s YouTube channel:</p>
 
@@ -93,7 +93,9 @@
 
 <h3 id="d02t02-asynchronous-integration-tests-for-microservices-https-rootconf-talkfunnel-com-2017-64-asynchronous-integration-tests-for-microservices-by-atramya-https-twitter-com-atramya"><a href="https://rootconf.talkfunnel.com/2017/64-asynchronous-integration-tests-for-microservices">D02T02: &ldquo;Asynchronous&rdquo; integration tests for microservices</a> by <a href="https://twitter.com/atramya">@atramya</a></h3>
 
-<p>I learnt a bunch of things from this talk, especially <a href="https://martinfowler.com/articles/consumerDrivenContracts.html">Consumer Driven Contracts</a> by Martin Fowler, the concept this talk&rsquo;s tools implements. In CDC a provider needs to conform to a contract defined by it&rsquo;s consumers whenever it&rsquo;s talking to one. Once implemented it ensures that the consumer can run an integration test for the provider by only being concerned about the honored contract and not any upstream code change in the provider. The provider can test that any change in it&rsquo;s code base doesn&rsquo;t dishonor exisiting contracts and voila! The two tests and now be run asynchronously and independently of each other.</p>
+<p>I learnt a bunch of things from this talk, especially <a href="https://martinfowler.com/articles/consumerDrivenContracts.html">Consumer Driven Contracts</a> by Martin Fowler, the concept this talk&rsquo;s tools implements.</p>
+
+<p>In CDC a provider needs to conform to a contract defined by it&rsquo;s consumers whenever it&rsquo;s talking to one. Once implemented it ensures that the consumer can run an integration test for the provider by only being concerned about the honored contract and not any upstream code change in the provider. The provider can test that any change in it&rsquo;s code base doesn&rsquo;t dishonor exisiting contracts and voila! The two tests and now be run asynchronously and independently of each other.</p>
 
 <p>One key takeaway from the opening of the talk was:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do microservices, but don&#39;t end up with your own DeathStar cluster. The rebels will always find that Thermal Exhaust port and blow it up. <a href="https://t.co/b2ChxaYUff">https://t.co/b2ChxaYUff</a></p>&mdash; #Fyre (@hashfyre) <a href="https://twitter.com/hashfyre/status/863102273752322048">May 12, 2017</a></blockquote>
@@ -120,14 +122,14 @@
 
 <h3 id="d02t03-devconf-track-build-test-deliver-latest-and-safest-container-images-effortlessly-https-rootconf-talkfunnel-com-devconf-2017-86-build-test-deliver-latest-and-safest-container-ima-by-rtnpro-https-twitter-com-rtnpro"><a href="https://rootconf.talkfunnel.com/devconf-2017/86-build-test-deliver-latest-and-safest-container-ima">D02T03: DevConf Track: Build, test, deliver latest and safest container images effortlessly</a> by <a href="https://twitter.com/rtnpro">@rtnpro</a></h3>
 
-<p>I joined in pretty late on this talk, the only info I could garner was that CentOS has built a <a href="https://github.com/CentOS/container-pipeline-service">Container Delivery pipeline</a> with built-in security checks and OSS&rsquo;ed it. At my work, we already have something similar with wercker as the CI pipeline and Dockhub as both registry and vulnerability assessment.</p>
+<p>I joined in pretty late on this talk, the only info I could garner was that CentOS has built a <a href="https://github.com/CentOS/container-pipeline-service">Container Delivery Pipeline</a> with built-in security checks and open-sourced it. At my work, we already have something similar with wercker as the CI pipeline and Dockerhub as both registry and vulnerability assessment.</p>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">DevConf track <a href="https://twitter.com/rootconf">@rootconf</a> on <a href="https://t.co/OWOr9ZlHGl">https://t.co/OWOr9ZlHGl</a><br>I guess I need to add a package update checker for my werker publish pipeline. <a href="https://t.co/Pv5LGa5z7q">pic.twitter.com/Pv5LGa5z7q</a></p>&mdash; #Fyre (@hashfyre) <a href="https://twitter.com/hashfyre/status/862901857894649857">May 12, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h3 id="d02t04-capacity-planning-for-your-data-stores-https-rootconf-talkfunnel-com-2017-65-capacity-planning-for-your-data-stores-by-bytebot-https-twitter-com-bytebot"><a href="https://rootconf.talkfunnel.com/2017/65-capacity-planning-for-your-data-stores">D02T04: Capacity planning for your data stores</a> by <a href="https://twitter.com/bytebot">@bytebot</a></h3>
 
-<p>Colin&rsquo;s talks are almost always one of the more informative ones by any measure. This one did not disappoint too. He talked at length about MySQL Percona clusters and the <a href="https://pmmdemo.percona.com/">new monitoring tool</a> they had come up with.</p>
+<p>Colin&rsquo;s talks were almost always of the more informative ones by any measure. This one did not disappoint too. He talked at length about MySQL Percona clusters and the <a href="https://pmmdemo.percona.com/">new monitoring tool</a> they had come up with.</p>
 
 <p>It dealt in depth about MySQL/MariaDB shard management, and dabbled in how <a href="http://www.proxysql.com/blog/releasing-proxysql-140">ProxySQL</a> can help one in boosting MySQL performance for orgs.</p>
 
@@ -141,13 +143,15 @@
 
 <h3 id="thanks-and-feedback">Thanks and Feedback</h3>
 
-<p>The flow was punctuated with a short session by the organizers thanking all the volunteers and passing the mic for general feedback. One point that I had to bring up was better classification of talks into 101,102 and so on so that on a multi-track conference like Rootconf people can prioritize what they wanted to attend depending on their personal skill level and wihotu either getting overwhelmed or underwhelmed by the content. This I felt was necessary for optimal matching of content to expectation.</p>
+<p>The flow was punctuated with a short session by the organizers thanking all the volunteers and passing the mic for general feedback.</p>
+
+<p>One point that I had to bring up was better classification of talks into 101,102 and so on&hellip; So that, on a multi-track conference like Rootconf people can prioritize what they wanted to attend depending on their personal skill level and without either getting overwhelmed or underwhelmed by the content. This, I felt was necessary for optimal matching of content to expectation.</p>
 
 <h3 id="d02t05-auto-spotting-with-spotswap-https-rootconf-talkfunnel-com-2017-72-spotswap-running-production-apis-on-spot-instances-by-arunasank-https-twitter-com-bytebot"><a href="https://rootconf.talkfunnel.com/2017/72-spotswap-running-production-apis-on-spot-instances">D02T05: Auto-spotting with SpotSwap</a> by <a href="https://twitter.com/bytebot">@arunasank</a></h3>
 
-<p>I have been interested in AWS Budgeting with either the Spot Instance Market or Reserved Instances for some time now. Though, tools like <a href="https://github.com/cristim/autospotting">autospotting</a> have already piqued my curiosity, I haven&rsquo;t yet been able to play around with it in production since my organization&rsquo;s workload has not yet stabilized.</p>
+<p>I have been interested in AWS Budgeting with either the Spot Instance Market or Reserved Instances for some time now. Though tools like <a href="https://github.com/cristim/autospotting">autospotting</a> have already piqued my curiosity, I haven&rsquo;t yet been able to play around with them in production since my organization&rsquo;s workload has not yet stabilized.</p>
 
-<p>The tool that Aruna demoed, called <a href="https://github.com/mapbox/spotswap">spotswap</a> was unknown to me and I was hooked on to how this works. Spotswap essentially monitors instance requirements of a static ASG and based on scaling rules bids and provisions spot instances in another ASG whenever needed and does this in a continous manner.</p>
+<p>The tool that Aruna demoed, called <a href="https://github.com/mapbox/spotswap">spotswap</a> was unknown to me and I was hooked on to how this works. Spotswap essentially monitors instance requirements of a static ASG and based on scaling rules bids and provisions spot instances in another ASG whenever needed and does this in a continuous manner.</p>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -157,7 +161,18 @@
 
 <h3 id="d02t06-mysql-troubleshooting-tl-dr-https-rootconf-talkfunnel-com-2017-60-mysql-troubleshooting-tldr-by-lig-https-twitter-com-lig"><a href="https://rootconf.talkfunnel.com/2017/60-mysql-troubleshooting-tldr">D02T06: MySQL Troubleshooting: TL;DR</a> by <a href="https://twitter.com/lig">@lig</a></h3>
 
-<p>This was a fairly 101 Level talk about MySQL error-logs, performance schema, innodb metadata, debugging running processes and the likes. Having run a MariaDB + Galera master-master clsuter for a year and a half, most of these essential lessons were now burnt into my skin. You only know enough DBA if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.</p>
+<p>This was a fairly 101 Level talk about:</p>
+
+<ul>
+<li>MySQL error-logs</li>
+<li>Performance schema</li>
+<li>Innodb metadata</li>
+<li>Debugging running processes with <code>show processlist</code> and the likes.</li>
+</ul>
+
+<p>Having run a <code>MariaDB + Galera</code> master-master clsuter for a year and a half, most of these essential lessons were now burnt into my skin.</p>
+
+<p>You only know enough DBA if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.</p>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -167,11 +182,13 @@
 
 <h3 id="stretch-break">Stretch Break</h3>
 
-<p>This time <a href="https://twitter.com/lochan">@lochan</a> had taken over from Todd to provide us, the sedentary dev and devops people some insight into healthy living. We did some Yoga right in the auditorium like last time, accompanies by sporadic bursts of hilarity when people understood how cramped up and inflexible their bodies have become.</p>
+<p>This time <a href="https://twitter.com/lochan">@lochan</a> had taken over from Todd to provide us, the sedentary dev and devops people; some insight into healthy living. We did some Yoga right in the auditorium like last time, accompanied by sporadic bursts of hilarity when people understood how cramped up and inflexible their bodies have become.</p>
 
 <h3 id="d02t07-adventures-in-postgres-management-https-rootconf-talkfunnel-com-2017-1-adventures-in-postgres-management-by-ramananb-https-twittre-com-ramananb"><a href="https://rootconf.talkfunnel.com/2017/1-adventures-in-postgres-management">D02T07: Adventures in Postgres management</a> by<a href="https://twittre.com/ramananb">@ramananb</a></h3>
 
-<p>This talk kind of went over my head having never administered a Postgres cluster beyond RDS (which doesn&rsquo;t need much care). I&rsquo;d just leave the video for your consumption.</p>
+<p>This talk kind of went over my head, having never administered a Postgres cluster beyond RDS (which doesn&rsquo;t need much care).</p>
+
+<p>I&rsquo;d just leave the video for your consumption.</p>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -181,7 +198,7 @@
 
 <h3 id="d02t08-working-with-secrets-https-rootconf-talkfunnel-com-2017-58-working-with-secrets-by-shrey-agarwal"><a href="https://rootconf.talkfunnel.com/2017/58-working-with-secrets">D02T08: Working with Secrets</a> by Shrey Agarwal</h3>
 
-<p>While I had expectations of this talk, this was mostly a primer on [Hashicorp/vault]():</p>
+<p>While I had high expectations of this talk, this was mostly a primer on <a href="https://www.vaultproject.io/">Hashicorp/vault</a>:</p>
 
 <ul>
 <li>Vault Architecture
@@ -209,7 +226,11 @@
 
 <h3 id="tea-break-and-bahubali-scale">Tea Break and Bahubali Scale</h3>
 
-<p>Had the chance to network with a DevOps person from BookMyShow, Radhe; who was also a friend of my colleague. The talk inadvertently turned to how they handled major movie releases. Then, someone innocnently commented about having gone and seen Bahbali 2, to this the person reacted with considerable pain saying, &ldquo;We were all-hands during the Bahubali 2 release.&rdquo; It suddenly dawned on us how different it must be for people at BookMyShow when a movie is expected to be a major hit and the scale has to be pre-estimated and provisioned by them on BoxOffice opening day. For a few seconds all of us were dumbstruck as we digested the implications of a movie-release on their workload.</p>
+<p>Had the chance to network with a DevOps person from BookMyShow, Radhe; who was also a friend of one of my colleagues.</p>
+
+<p>The talk inadvertently turned to how they handled major movie releases. Then, someone innocently commented about having gone and seen Bahbali 2, and BookMyShow was performing really well on the day he booked tickets.</p>
+
+<p>To this Radhe reacted with considerable distress, saying, &ldquo;We were all-hands during the Bahubali 2 release.&rdquo; It suddenly dawned on us how different it must be for people at BookMyShow when a movie is expected to be a major hit and the scale has to be pre-estimated and provisioned by them on BoxOffice opening day. For a few seconds all of us were dumbstruck as we digested the implications of a movie-release on their workload.</p>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;MongoDB might be web scale, but bookmyshow is Bahubali scale.&quot;<a href="https://twitter.com/rootconf">@rootconf</a> conversation with a friend from BMS. 😂 <a href="https://t.co/qVBJ0S2WNQ">pic.twitter.com/qVBJ0S2WNQ</a></p>&mdash; #Fyre (@hashfyre) <a href="https://twitter.com/hashfyre/status/865072127094816769">May 18, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

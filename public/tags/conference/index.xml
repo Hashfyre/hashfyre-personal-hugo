@@ -48,11 +48,14 @@
 
 &lt;p&gt;Amazon and Netflix can afford DeathStar clusters, not all of us can, operationally and otherwise.&lt;/p&gt;
 
-&lt;p&gt;Current implementations with CDC were:
- - &lt;a href=&#34;https://docs.pact.io/documentation/usage_ruby.html&#34;&gt;Pact&lt;/a&gt;
- - &lt;a href=&#34;https://github.com/gga/janus&#34;&gt;Janus&lt;/a&gt; - Project inactive
- - &lt;a href=&#34;http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html&#34;&gt;Spring CLoud Contracts&lt;/a&gt;
- - &lt;a href=&#34;https://github.com/thoughtworks/pacto&#34;&gt;Pacto&lt;/a&gt; - Project inactive&lt;/p&gt;
+&lt;p&gt;Current implementations of CDC were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.pact.io/documentation/usage_ruby.html&#34;&gt;Pact&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gga/janus&#34;&gt;Janus&lt;/a&gt; - Project inactive&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html&#34;&gt;Spring CLoud Contracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thoughtworks/pacto&#34;&gt;Pacto&lt;/a&gt; - Project inactive&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The talked about tool here was, of course Pact. Pact defines the CDC cotract using Pactfiles which takes care of mocking integration tests and replaying them against the Pactfile to ensure that the contract is honored.&lt;/p&gt;
 
@@ -153,7 +156,7 @@
 
 &lt;h3 id=&#34;tea-break-and-bahubali-scale&#34;&gt;Tea Break and Bahubali Scale&lt;/h3&gt;
 
-&lt;p&gt;Had the chance to network with a DevOps person from BookMyShow, Radhe; who was also a friend of my colleague. The talk inadvertently turned to how they handled major movie releases. Then, someone innocnently commented about having gone and seen Bahbali 2, to this the person reacted with considerable pain saying, &amp;ldquo;We were all hands in during the Bahubali 2 release.&amp;rdquo; It suddenly dawned on us how different it must be for people at BookMyShow when a movie is pre-expected to be a major hit and the scale will hit them on BoxOffice opening day. For a few seconds all of us were dumbstruck as we digested the implications on their workload.&lt;/p&gt;
+&lt;p&gt;Had the chance to network with a DevOps person from BookMyShow, Radhe; who was also a friend of my colleague. The talk inadvertently turned to how they handled major movie releases. Then, someone innocnently commented about having gone and seen Bahbali 2, to this the person reacted with considerable pain saying, &amp;ldquo;We were all-hands during the Bahubali 2 release.&amp;rdquo; It suddenly dawned on us how different it must be for people at BookMyShow when a movie is expected to be a major hit and the scale has to be pre-estimated and provisioned by them on BoxOffice opening day. For a few seconds all of us were dumbstruck as we digested the implications of a movie-release on their workload.&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;MongoDB might be web scale, but bookmyshow is Bahubali scale.&amp;quot;&lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; conversation with a friend from BMS. 😂 &lt;a href=&#34;https://t.co/qVBJ0S2WNQ&#34;&gt;pic.twitter.com/qVBJ0S2WNQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/865072127094816769&#34;&gt;May 18, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;

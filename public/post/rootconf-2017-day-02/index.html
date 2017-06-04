@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.19" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://itworksonmysystem.com/css/style.css" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" type="text/css">
+<link rel="alternate" href="https://itworksonmysystem.com/index.xml" type="application/rss+xml" title="itworksonmysystem.com">
+<title>Rootconf 2017 Retrospective - Day 02 - itworksonmysystem.com</title>
+</head>
+<body>
+
+<header>
+  <div class="container clearfix">
+    <a class="path" href="https://itworksonmysystem.com">[itworksonmysystem.com]</a>
+    <span class="caret">#~</span>
+    <div class="right">
+      
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+
+<main role="main" class="article">
+  
+<article class="single" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="meta">
+
+    <span class="key">published on</span>
+    <span class="val"><time itemprop="datePublished" datetime="2017-05-20">May 20, 2017</time></span>
+
+
+    <span class="key">in</span>
+    <span class="val">
+
+        <a href="https://itworksonmysystem.comcategories/conference">conference</a>
+
+    </span>
+
+
+    <br>
+    <span class="key">tags:</span>
+    <span class="val">
+
+        <a href="https://itworksonmysystem.comtags/conference">conference</a>
+
+        <a href="https://itworksonmysystem.comtags/rootconf">rootconf</a>
+
+        <a href="https://itworksonmysystem.comtags/devops">devops</a>
+
+        <a href="https://itworksonmysystem.comtags/aws">aws</a>
+
+        <a href="https://itworksonmysystem.comtags/mysql">mysql</a>
+
+        <a href="https://itworksonmysystem.comtags/mariadb">mariadb</a>
+
+        <a href="https://itworksonmysystem.comtags/microservices">microservices</a>
+
+    </span>
+
+  </div>
+  <h1 class="headline" itemprop="headline">Rootconf 2017 Retrospective - Day 02</h1>
+  <section class="body" itemprop="articleBody">
+    
+
+<h2 id="rootconf-2017">Rootconf 2017</h2>
+
+<p>Day 02 of rootconf started off upbeat with some good networking accomplished during the breakfast. I had the opportunity to talk to one of BookMyShow&rsquo;s principal architects, Sivagurunathan S. We chatted about RDS vs NewSQL scalability on the payments domain.</p>
+
+<p>Some promising talks were scheduled for this day.</p>
+
+<h3 id="d02t01-failure-resilient-architecture-with-microservices-https-rootconf-talkfunnel-com-2017-29-failure-resilient-architecture-with-microservice-d-by-kunalgrover05-https-twitter-com-kunalgrover05"><a href="https://rootconf.talkfunnel.com/2017/29-failure-resilient-architecture-with-microservice-d">D02T01: Failure Resilient Architecture with Microservices</a> by <a href="https://twitter.com/kunalgrover05">@kunalgrover05</a></h3>
+
+<p>This talk focussed on implementing circuit-breakers for Amazon&rsquo;s microservices clusters. The idea is if one of your microservice fails the entire overarching service shouldn&rsquo;t fail, only degrade by a fraction. It&rsquo;s also important that every dependant service would have circuit breakers with sane defaults take over in case of a failure of upstream service.</p>
+
+<p>An example circuit-breaker using <code>iptables</code> was shown, along side discussions of monitoring and tracing to deptect faiures.</p>
+
+<p>The video of the talk is up now on Hasgeek&rsquo;s YouTube channel:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/OFVgEtOHV4Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<p>Overall a nice talk, however it&rsquo;d fall on a more theoretical side of discourses.</p>
+
+<h3 id="d02t02-asynchronous-integration-tests-for-microservices-https-rootconf-talkfunnel-com-2017-64-asynchronous-integration-tests-for-microservices-by-atramya-https-twitter-com-atramya"><a href="https://rootconf.talkfunnel.com/2017/64-asynchronous-integration-tests-for-microservices">D02T02: &ldquo;Asynchronous&rdquo; integration tests for microservices</a> by <a href="https://twitter.com/atramya">@atramya</a></h3>
+
+<p>I learnt a bunch of things from this talk, especially <a href="https://martinfowler.com/articles/consumerDrivenContracts.html">Consumer Driven Contracts</a> by Martin Fowler, the concept this talk&rsquo;s tools implements. In CDC a provider needs to conform to a contract defined by it&rsquo;s consumers whenever it&rsquo;s talking to one. Once implemented it ensures that the consumer can run an integration test for the provider by only being concerned about the honored contract and not any upstream code change in the provider. The provider can test that any change in it&rsquo;s code base doesn&rsquo;t dishonor exisiting contracts and voila! The two tests and now be run asynchronously and independently of each other.</p>
+
+<p>One key takeaway from the opening of the talk was:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do microservices, but don&#39;t end up with your own DeathStar cluster. The rebels will always find that Thermal Exhaust port and blow it up. <a href="https://t.co/b2ChxaYUff">https://t.co/b2ChxaYUff</a></p>&mdash; #Fyre (@hashfyre) <a href="https://twitter.com/hashfyre/status/863102273752322048">May 12, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>Amazon and Netflix can afford DeathStar clusters, not all of us can, operationally and otherwise.</p>
+
+<p>Current implementations with CDC were:
+ - <a href="https://docs.pact.io/documentation/usage_ruby.html">Pact</a>
+ - <a href="https://github.com/gga/janus">Janus</a> - Project inactive
+ - <a href="http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html">Spring CLoud Contracts</a>
+ - <a href="https://github.com/thoughtworks/pacto">Pacto</a> - Project inactive</p>
+
+<p>The talked about tool here was, of course Pact. Pact defines the CDC cotract using Pactfiles which takes care of mocking integration tests and replaying them against the Pactfile to ensure that the contract is honored.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/Ib97tX8P1o4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h3 id="d02t03-devconf-track-build-test-deliver-latest-and-safest-container-images-effortlessly-https-rootconf-talkfunnel-com-devconf-2017-86-build-test-deliver-latest-and-safest-container-ima-by-rtnpro-https-twitter-com-rtnpro"><a href="https://rootconf.talkfunnel.com/devconf-2017/86-build-test-deliver-latest-and-safest-container-ima">D02T03: DevConf Track: Build, test, deliver latest and safest container images effortlessly</a> by <a href="https://twitter.com/rtnpro">@rtnpro</a></h3>
+
+<p>I joined in pretty late on this talk, the only info I could garner was that CentOS has built a <a href="https://github.com/CentOS/container-pipeline-service">Container Delivery pipeline</a> with built-in security checks and OSS&rsquo;ed it. At my work, we already have something similar with wercker as the CI pipeline and Dockhub as both registry and vulnerability assessment.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">DevConf track <a href="https://twitter.com/rootconf">@rootconf</a> on <a href="https://t.co/OWOr9ZlHGl">https://t.co/OWOr9ZlHGl</a><br>I guess I need to add a package update checker for my werker publish pipeline. <a href="https://t.co/Pv5LGa5z7q">pic.twitter.com/Pv5LGa5z7q</a></p>&mdash; #Fyre (@hashfyre) <a href="https://twitter.com/hashfyre/status/862901857894649857">May 12, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<h3 id="d02t04-capacity-planning-for-your-data-stores-https-rootconf-talkfunnel-com-2017-65-capacity-planning-for-your-data-stores-by-bytebot-https-twitter-com-bytebot"><a href="https://rootconf.talkfunnel.com/2017/65-capacity-planning-for-your-data-stores">D02T04: Capacity planning for your data stores</a> by <a href="https://twitter.com/bytebot">@bytebot</a></h3>
+
+<p>Colin&rsquo;s talks are almost always one of the more informative ones by any measure. This one did not disappoint too. He talked at length about MySQL Percona clusters and the <a href="https://pmmdemo.percona.com/">new monitoring tool</a> they had come up with.</p>
+
+<p>It dealt in depth about MySQL/MariaDB shard management, and dabbled in how <a href="http://www.proxysql.com/blog/releasing-proxysql-140">ProxySQL</a> can help one in boosting MySQL performance for orgs.</p>
+
+<p>The most amazing part was using <a href="https://github.com/facebookincubator/prophet">Facebook Incubator | Prophet</a> to forecast MySQL performance using the time-series metrics stored by your metrics stack.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/sjDXJ9RF480" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h3 id="thanks-and-feedback">Thanks and Feedback</h3>
+
+<p>The flow was punctuated with a short session by the organizers thanking all the volunteers and passing the mic for general feedback. One point that I had to bring up was better classification of talks into 101,102 and so on so that on a multi-track conference like Rootconf people can prioritize what they wanted to attend depending on their personal skill level and wihotu either getting overwhelmed or underwhelmed by the content. This I felt was necessary for optimal matching of content to expectation.</p>
+
+<h3 id="d02t05-auto-spotting-with-spotswap-https-rootconf-talkfunnel-com-2017-72-spotswap-running-production-apis-on-spot-instances-by-arunasank-https-twitter-com-bytebot"><a href="https://rootconf.talkfunnel.com/2017/72-spotswap-running-production-apis-on-spot-instances">D02T05: Auto-spotting with SpotSwap</a> by <a href="https://twitter.com/bytebot">@arunasank</a></h3>
+
+<p>I have been interested in AWS Budgeting with either the Spot Instance Market or Reserved Instances for some time now. Though, tools like <a href="https://github.com/cristim/autospotting">autospotting</a> have already piqued my curiosity, I haven&rsquo;t yet been able to play around with it in production since my organization&rsquo;s workload has not yet stabilized.</p>
+
+<p>The tool that Aruna demoed, called <a href="https://github.com/mapbox/spotswap">spotswap</a> was unknown to me and I was hooked on to how this works. Spotswap essentially monitors instance requirements of a static ASG and based on scaling rules bids and provisions spot instances in another ASG whenever needed and does this in a continous manner.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/XQJ7YhVoSWI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h3 id="d02t06-mysql-troubleshooting-tl-dr-https-rootconf-talkfunnel-com-2017-60-mysql-troubleshooting-tldr-by-lig-https-twitter-com-lig"><a href="https://rootconf.talkfunnel.com/2017/60-mysql-troubleshooting-tldr">D02T06: MySQL Troubleshooting: TL;DR</a> by <a href="https://twitter.com/lig">@lig</a></h3>
+
+<p>This was a fairly 101 Level talk about MySQL error-logs, performance schema, innodb metadata, debugging running processes and the likes. Having run a MariaDB + Galera master-master clsuter for a year and a half, most of these essential lessons were now burnt into my skin. You only know enough DBA if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/tOSnLqcZ_Po" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h3 id="stretch-break">Stretch Break</h3>
+
+<p>This time <a href="https://twitter.com/lochan">@lochan</a> had taken over from Todd to provide us, the sedentary dev and devops people some insight into healthy living. We did some Yoga right in the auditorium like last time, accompanies by sporadic bursts of hilarity when people understood how cramped up and inflexible their bodies have become.</p>
+
+<h3 id="d02t07-adventures-in-postgres-management-https-rootconf-talkfunnel-com-2017-1-adventures-in-postgres-management-by-ramananb-https-twittre-com-ramananb"><a href="https://rootconf.talkfunnel.com/2017/1-adventures-in-postgres-management">D02T07: Adventures in Postgres management</a> by<a href="https://twittre.com/ramananb">@ramananb</a></h3>
+
+<p>This talk kind of went over my head having never administered a Postgres cluster beyond RDS (which doesn&rsquo;t need much care). I&rsquo;d just leave the video for your consumption.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/-s0qfDz5rr0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h3 id="d02t08-working-with-secrets-https-rootconf-talkfunnel-com-2017-58-working-with-secrets-by-shrey-agarwal"><a href="https://rootconf.talkfunnel.com/2017/58-working-with-secrets">D02T08: Working with Secrets</a> by Shrey Agarwal</h3>
+
+<p>While I had expectations of this talk, this was mostly a primer on [Hashicorp/vault]():</p>
+
+<ul>
+<li>Vault Architecture
+
+<ul>
+<li>Multi-part master key for sealing and unsealing, based on <a href="https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing">Shamir&rsquo;s Secret Sharing</a></li>
+<li>Encryption Key that only Vault knows</li>
+</ul></li>
+<li>Vault CLI usage
+
+<ul>
+<li>vault init</li>
+<li>unsealing</li>
+<li>sealing</li>
+</ul></li>
+<li>Automated secret management:
+
+<ul>
+<li>Always Sealed Approach</li>
+<li>Always Unsealed Approach</li>
+</ul></li>
+</ul>
+
+<p>As always the debatable point of why &ldquo;always unsealed&rdquo; approach is recommended came up. I left the talk with a feeling that I really need to read more on Vault to understand it&rsquo;s implications.</p>
+
+<h3 id="tea-break-and-bahubali-scale">Tea Break and Bahubali Scale</h3>
+
+<p>Had the chance to network with a DevOps person from BookMyShow, Radhe; who was also a friend of my colleague. The talk inadvertently turned to how they handled major movie releases. Then, someone innocnently commented about having gone and seen Bahbali 2, to this the person reacted with considerable pain saying, &ldquo;We were all hands in during the Bahubali 2 release.&rdquo; It suddenly dawned on us how different it must be for people at BookMyShow when a movie is pre-expected to be a major hit and the scale will hit them on BoxOffice opening day. For a few seconds all of us were dumbstruck as we digested the implications on their workload.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;MongoDB might be web scale, but bookmyshow is Bahubali scale.&quot;<a href="https://twitter.com/rootconf">@rootconf</a> conversation with a friend from BMS. 😂 <a href="https://t.co/qVBJ0S2WNQ">pic.twitter.com/qVBJ0S2WNQ</a></p>&mdash; #Fyre (@hashfyre) <a href="https://twitter.com/hashfyre/status/865072127094816769">May 18, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Thus, the second (for me) Rootconf ended. I don&rsquo;t know if I was any wiser for it, but as always I met new people from the DevOps circles around India and had a lot of interesting discussions. I&rsquo;ll probably start a workshop at my workplace for Kubernets and hashicorp tools, since I was now pretty comfortable with them, and may be that&rsquo;d be my way to give back to the community that had assimilated me.</p>
+
+  </section>
+</article>
+
+</main>
+
+
+</div>
+
+<footer>
+  <div class="container">
+    <span class="copyright">&copy; 2017  itworksonmysystem.com - <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
+

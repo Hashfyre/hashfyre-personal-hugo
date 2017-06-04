@@ -10,7 +10,7 @@
     <atom:link href="https://itworksonmysystem.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Rootconf 2017 Retrospective</title>
+      <title>Rootconf 2017 Retrospective - Day 01</title>
       <link>https://itworksonmysystem.com/post/rootconf-2017-day-01/</link>
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
       
@@ -61,7 +61,7 @@
 &lt;p&gt;Bernd is the co-fo of Icinga, that much &lt;a href=&#34;https://news.ycombinator.com/item?id=9452013&#34;&gt;hyped and heated fork&lt;/a&gt; of Nagios. So if he&amp;rsquo;s talking about monitoring, you&amp;rsquo;re supposed to listen.&lt;/p&gt;
 
 &lt;p&gt;I kind of reacted prematurely when I didn&amp;rsquo;t see &lt;a href=&#34;https://prometheus.io/&#34;&gt;Prometheus&lt;/a&gt; in his list of monitoring tools. However that doubt was soon rested, and he did talk about it in the metrics section of talk.
-  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/gethash&#34;&gt;@gethash&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; Why no Prometheus on the Monitoring landscape! 🤔 &lt;a href=&#34;https://twitter.com/hashtag/Rootconf?src=hash&#34;&gt;#Rootconf&lt;/a&gt; &lt;a href=&#34;https://t.co/xcM7JzMse6&#34;&gt;pic.twitter.com/xcM7JzMse6&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862523143742570496&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
+  &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Why no Prometheus on the Monitoring landscape! 🤔 &lt;a href=&#34;https://twitter.com/hashtag/Rootconf?src=hash&#34;&gt;#Rootconf&lt;/a&gt; &lt;a href=&#34;https://t.co/xcM7JzMse6&#34;&gt;pic.twitter.com/xcM7JzMse6&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862523143742570496&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;The talk offered a broad coverage of:&lt;/p&gt;
@@ -143,7 +143,7 @@ Now, with that out of the way, Alice is a &lt;a href=&#34;https://hubot.github.c
 &lt;h3 id=&#34;d01t04-the-otto-monitoring-talk-https-rootconf-talkfunnel-com-2017-18-necessary-tooling-and-monitoring-for-performance-c-by-mananbharara-https-twitter-com-mananbharara&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/18-necessary-tooling-and-monitoring-for-performance-c&#34;&gt;D01T04: The OTTO Monitoring talk&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/mananbharara&#34;&gt;@mananbharara&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Before I say anything about the content, this was the best delivery of the day. Manan&amp;rsquo;s precision in every point he made was beyond a practiced excellence. This was a zero fluff talk you&amp;rsquo;d get latched onto easily.
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;.&lt;a href=&#34;https://twitter.com/mananbharara&#34;&gt;@mananbharara&lt;/a&gt; &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; This is the most artful, precise and expertly delivered presentation I&amp;#39;ve seen in a long time. Bloody brilliant.&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862564182851371008&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;This is the most artful, precise and expertly delivered presentation I&amp;#39;ve seen in a long time. Bloody brilliant.&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862564182851371008&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;The content though was very specific to monitoring as applied to the contexts of:&lt;/p&gt;
@@ -270,6 +270,160 @@ While slack-lining or hoola-hooping weren&amp;rsquo;t my things, I spent quiet s
 &lt;p&gt;Post intoxication, &lt;a href=&#34;https://twitter.com/_TheDarkRider&#34;&gt;@_TheDarkRider&lt;/a&gt; dropped by to say hi which resulted in:
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;followed by &lt;a href=&#34;https://twitter.com/theeggfactory&#34;&gt;@theeggfactory&lt;/a&gt; dinner with &lt;a href=&#34;https://twitter.com/_TheDarkRider&#34;&gt;@_TheDarkRider&lt;/a&gt; &lt;a href=&#34;https://twitter.com/_dforce&#34;&gt;@_dforce&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashfyre&#34;&gt;@hashfyre&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hacktohell&#34;&gt;@hacktohell&lt;/a&gt; &lt;a href=&#34;https://twitter.com/data__wizard&#34;&gt;@data__wizard&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/mehulved&#34;&gt;@mehulved&lt;/a&gt;. Random &amp;amp; fun conversations&lt;/p&gt;&amp;mdash; Sathya (@SathyaBhat) &lt;a href=&#34;https://twitter.com/SathyaBhat/status/862715007972147200&#34;&gt;May 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rootconf 2017 Retrospective - Day 02</title>
+      <link>https://itworksonmysystem.com/post/rootconf-2017-day-02/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://itworksonmysystem.com/post/rootconf-2017-day-02/</guid>
+      <description>
+
+&lt;h2 id=&#34;rootconf-2017&#34;&gt;Rootconf 2017&lt;/h2&gt;
+
+&lt;p&gt;Day 02 of rootconf started off upbeat with some good networking accomplished during the breakfast. I had the opportunity to talk to one of BookMyShow&amp;rsquo;s principal architects, Sivagurunathan S. We chatted about RDS vs NewSQL scalability on the payments domain.&lt;/p&gt;
+
+&lt;p&gt;Some promising talks were scheduled for this day.&lt;/p&gt;
+
+&lt;h3 id=&#34;d02t01-failure-resilient-architecture-with-microservices-https-rootconf-talkfunnel-com-2017-29-failure-resilient-architecture-with-microservice-d-by-kunalgrover05-https-twitter-com-kunalgrover05&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/29-failure-resilient-architecture-with-microservice-d&#34;&gt;D02T01: Failure Resilient Architecture with Microservices&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/kunalgrover05&#34;&gt;@kunalgrover05&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This talk focussed on implementing circuit-breakers for Amazon&amp;rsquo;s microservices clusters. The idea is if one of your microservice fails the entire overarching service shouldn&amp;rsquo;t fail, only degrade by a fraction. It&amp;rsquo;s also important that every dependant service would have circuit breakers with sane defaults take over in case of a failure of upstream service.&lt;/p&gt;
+
+&lt;p&gt;An example circuit-breaker using &lt;code&gt;iptables&lt;/code&gt; was shown, along side discussions of monitoring and tracing to deptect faiures.&lt;/p&gt;
+
+&lt;p&gt;The video of the talk is up now on Hasgeek&amp;rsquo;s YouTube channel:&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/OFVgEtOHV4Y&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;Overall a nice talk, however it&amp;rsquo;d fall on a more theoretical side of discourses.&lt;/p&gt;
+
+&lt;h3 id=&#34;d02t02-asynchronous-integration-tests-for-microservices-https-rootconf-talkfunnel-com-2017-64-asynchronous-integration-tests-for-microservices-by-atramya-https-twitter-com-atramya&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/64-asynchronous-integration-tests-for-microservices&#34;&gt;D02T02: &amp;ldquo;Asynchronous&amp;rdquo; integration tests for microservices&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/atramya&#34;&gt;@atramya&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I learnt a bunch of things from this talk, especially &lt;a href=&#34;https://martinfowler.com/articles/consumerDrivenContracts.html&#34;&gt;Consumer Driven Contracts&lt;/a&gt; by Martin Fowler, the concept this talk&amp;rsquo;s tools implements. In CDC a provider needs to conform to a contract defined by it&amp;rsquo;s consumers whenever it&amp;rsquo;s talking to one. Once implemented it ensures that the consumer can run an integration test for the provider by only being concerned about the honored contract and not any upstream code change in the provider. The provider can test that any change in it&amp;rsquo;s code base doesn&amp;rsquo;t dishonor exisiting contracts and voila! The two tests and now be run asynchronously and independently of each other.&lt;/p&gt;
+
+&lt;p&gt;One key takeaway from the opening of the talk was:
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Do microservices, but don&amp;#39;t end up with your own DeathStar cluster. The rebels will always find that Thermal Exhaust port and blow it up. &lt;a href=&#34;https://t.co/b2ChxaYUff&#34;&gt;https://t.co/b2ChxaYUff&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/863102273752322048&#34;&gt;May 12, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Amazon and Netflix can afford DeathStar clusters, not all of us can, operationally and otherwise.&lt;/p&gt;
+
+&lt;p&gt;Current implementations with CDC were:
+ - &lt;a href=&#34;https://docs.pact.io/documentation/usage_ruby.html&#34;&gt;Pact&lt;/a&gt;
+ - &lt;a href=&#34;https://github.com/gga/janus&#34;&gt;Janus&lt;/a&gt; - Project inactive
+ - &lt;a href=&#34;http://cloud.spring.io/spring-cloud-contract/spring-cloud-contract.html&#34;&gt;Spring CLoud Contracts&lt;/a&gt;
+ - &lt;a href=&#34;https://github.com/thoughtworks/pacto&#34;&gt;Pacto&lt;/a&gt; - Project inactive&lt;/p&gt;
+
+&lt;p&gt;The talked about tool here was, of course Pact. Pact defines the CDC cotract using Pactfiles which takes care of mocking integration tests and replaying them against the Pactfile to ensure that the contract is honored.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/Ib97tX8P1o4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;d02t03-devconf-track-build-test-deliver-latest-and-safest-container-images-effortlessly-https-rootconf-talkfunnel-com-devconf-2017-86-build-test-deliver-latest-and-safest-container-ima-by-rtnpro-https-twitter-com-rtnpro&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/devconf-2017/86-build-test-deliver-latest-and-safest-container-ima&#34;&gt;D02T03: DevConf Track: Build, test, deliver latest and safest container images effortlessly&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/rtnpro&#34;&gt;@rtnpro&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I joined in pretty late on this talk, the only info I could garner was that CentOS has built a &lt;a href=&#34;https://github.com/CentOS/container-pipeline-service&#34;&gt;Container Delivery pipeline&lt;/a&gt; with built-in security checks and OSS&amp;rsquo;ed it. At my work, we already have something similar with wercker as the CI pipeline and Dockhub as both registry and vulnerability assessment.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;DevConf track &lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; on &lt;a href=&#34;https://t.co/OWOr9ZlHGl&#34;&gt;https://t.co/OWOr9ZlHGl&lt;/a&gt;&lt;br&gt;I guess I need to add a package update checker for my werker publish pipeline. &lt;a href=&#34;https://t.co/Pv5LGa5z7q&#34;&gt;pic.twitter.com/Pv5LGa5z7q&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/862901857894649857&#34;&gt;May 12, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h3 id=&#34;d02t04-capacity-planning-for-your-data-stores-https-rootconf-talkfunnel-com-2017-65-capacity-planning-for-your-data-stores-by-bytebot-https-twitter-com-bytebot&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/65-capacity-planning-for-your-data-stores&#34;&gt;D02T04: Capacity planning for your data stores&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/bytebot&#34;&gt;@bytebot&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Colin&amp;rsquo;s talks are almost always one of the more informative ones by any measure. This one did not disappoint too. He talked at length about MySQL Percona clusters and the &lt;a href=&#34;https://pmmdemo.percona.com/&#34;&gt;new monitoring tool&lt;/a&gt; they had come up with.&lt;/p&gt;
+
+&lt;p&gt;It dealt in depth about MySQL/MariaDB shard management, and dabbled in how &lt;a href=&#34;http://www.proxysql.com/blog/releasing-proxysql-140&#34;&gt;ProxySQL&lt;/a&gt; can help one in boosting MySQL performance for orgs.&lt;/p&gt;
+
+&lt;p&gt;The most amazing part was using &lt;a href=&#34;https://github.com/facebookincubator/prophet&#34;&gt;Facebook Incubator | Prophet&lt;/a&gt; to forecast MySQL performance using the time-series metrics stored by your metrics stack.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/sjDXJ9RF480&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;thanks-and-feedback&#34;&gt;Thanks and Feedback&lt;/h3&gt;
+
+&lt;p&gt;The flow was punctuated with a short session by the organizers thanking all the volunteers and passing the mic for general feedback. One point that I had to bring up was better classification of talks into 101,102 and so on so that on a multi-track conference like Rootconf people can prioritize what they wanted to attend depending on their personal skill level and wihotu either getting overwhelmed or underwhelmed by the content. This I felt was necessary for optimal matching of content to expectation.&lt;/p&gt;
+
+&lt;h3 id=&#34;d02t05-auto-spotting-with-spotswap-https-rootconf-talkfunnel-com-2017-72-spotswap-running-production-apis-on-spot-instances-by-arunasank-https-twitter-com-bytebot&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/72-spotswap-running-production-apis-on-spot-instances&#34;&gt;D02T05: Auto-spotting with SpotSwap&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/bytebot&#34;&gt;@arunasank&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;I have been interested in AWS Budgeting with either the Spot Instance Market or Reserved Instances for some time now. Though, tools like &lt;a href=&#34;https://github.com/cristim/autospotting&#34;&gt;autospotting&lt;/a&gt; have already piqued my curiosity, I haven&amp;rsquo;t yet been able to play around with it in production since my organization&amp;rsquo;s workload has not yet stabilized.&lt;/p&gt;
+
+&lt;p&gt;The tool that Aruna demoed, called &lt;a href=&#34;https://github.com/mapbox/spotswap&#34;&gt;spotswap&lt;/a&gt; was unknown to me and I was hooked on to how this works. Spotswap essentially monitors instance requirements of a static ASG and based on scaling rules bids and provisions spot instances in another ASG whenever needed and does this in a continous manner.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/XQJ7YhVoSWI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;d02t06-mysql-troubleshooting-tl-dr-https-rootconf-talkfunnel-com-2017-60-mysql-troubleshooting-tldr-by-lig-https-twitter-com-lig&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/60-mysql-troubleshooting-tldr&#34;&gt;D02T06: MySQL Troubleshooting: TL;DR&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/lig&#34;&gt;@lig&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This was a fairly 101 Level talk about MySQL error-logs, performance schema, innodb metadata, debugging running processes and the likes. Having run a MariaDB + Galera master-master clsuter for a year and a half, most of these essential lessons were now burnt into my skin. You only know enough DBA if you have screwed up production clusters at runtime. I have been through that crucible before. In all this talk was both relatable and informative.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/tOSnLqcZ_Po&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;stretch-break&#34;&gt;Stretch Break&lt;/h3&gt;
+
+&lt;p&gt;This time &lt;a href=&#34;https://twitter.com/lochan&#34;&gt;@lochan&lt;/a&gt; had taken over from Todd to provide us, the sedentary dev and devops people some insight into healthy living. We did some Yoga right in the auditorium like last time, accompanies by sporadic bursts of hilarity when people understood how cramped up and inflexible their bodies have become.&lt;/p&gt;
+
+&lt;h3 id=&#34;d02t07-adventures-in-postgres-management-https-rootconf-talkfunnel-com-2017-1-adventures-in-postgres-management-by-ramananb-https-twittre-com-ramananb&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/1-adventures-in-postgres-management&#34;&gt;D02T07: Adventures in Postgres management&lt;/a&gt; by&lt;a href=&#34;https://twittre.com/ramananb&#34;&gt;@ramananb&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;This talk kind of went over my head having never administered a Postgres cluster beyond RDS (which doesn&amp;rsquo;t need much care). I&amp;rsquo;d just leave the video for your consumption.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/-s0qfDz5rr0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h3 id=&#34;d02t08-working-with-secrets-https-rootconf-talkfunnel-com-2017-58-working-with-secrets-by-shrey-agarwal&#34;&gt;&lt;a href=&#34;https://rootconf.talkfunnel.com/2017/58-working-with-secrets&#34;&gt;D02T08: Working with Secrets&lt;/a&gt; by Shrey Agarwal&lt;/h3&gt;
+
+&lt;p&gt;While I had expectations of this talk, this was mostly a primer on [Hashicorp/vault]():&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vault Architecture
+
+&lt;ul&gt;
+&lt;li&gt;Multi-part master key for sealing and unsealing, based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Shamir%27s_Secret_Sharing&#34;&gt;Shamir&amp;rsquo;s Secret Sharing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Encryption Key that only Vault knows&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Vault CLI usage
+
+&lt;ul&gt;
+&lt;li&gt;vault init&lt;/li&gt;
+&lt;li&gt;unsealing&lt;/li&gt;
+&lt;li&gt;sealing&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Automated secret management:
+
+&lt;ul&gt;
+&lt;li&gt;Always Sealed Approach&lt;/li&gt;
+&lt;li&gt;Always Unsealed Approach&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As always the debatable point of why &amp;ldquo;always unsealed&amp;rdquo; approach is recommended came up. I left the talk with a feeling that I really need to read more on Vault to understand it&amp;rsquo;s implications.&lt;/p&gt;
+
+&lt;h3 id=&#34;tea-break-and-bahubali-scale&#34;&gt;Tea Break and Bahubali Scale&lt;/h3&gt;
+
+&lt;p&gt;Had the chance to network with a DevOps person from BookMyShow, Radhe; who was also a friend of my colleague. The talk inadvertently turned to how they handled major movie releases. Then, someone innocnently commented about having gone and seen Bahbali 2, to this the person reacted with considerable pain saying, &amp;ldquo;We were all hands in during the Bahubali 2 release.&amp;rdquo; It suddenly dawned on us how different it must be for people at BookMyShow when a movie is pre-expected to be a major hit and the scale will hit them on BoxOffice opening day. For a few seconds all of us were dumbstruck as we digested the implications on their workload.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;MongoDB might be web scale, but bookmyshow is Bahubali scale.&amp;quot;&lt;a href=&#34;https://twitter.com/rootconf&#34;&gt;@rootconf&lt;/a&gt; conversation with a friend from BMS. 😂 &lt;a href=&#34;https://t.co/qVBJ0S2WNQ&#34;&gt;pic.twitter.com/qVBJ0S2WNQ&lt;/a&gt;&lt;/p&gt;&amp;mdash; #Fyre (@hashfyre) &lt;a href=&#34;https://twitter.com/hashfyre/status/865072127094816769&#34;&gt;May 18, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Thus, the second (for me) Rootconf ended. I don&amp;rsquo;t know if I was any wiser for it, but as always I met new people from the DevOps circles around India and had a lot of interesting discussions. I&amp;rsquo;ll probably start a workshop at my workplace for Kubernets and hashicorp tools, since I was now pretty comfortable with them, and may be that&amp;rsquo;d be my way to give back to the community that had assimilated me.&lt;/p&gt;
 </description>
     </item>
     
